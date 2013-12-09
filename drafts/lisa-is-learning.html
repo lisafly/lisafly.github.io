@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Lisha Li's Blog - matrix</title>
+  <title>Lisa Is Learning</title>
   <meta name="author" content="Lisha Li">
 
   <link href="http://lisafly.github.io/atom.xml" type="application/atom+xml" rel="alternate"
@@ -27,6 +27,23 @@
         rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
+      
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+           tex2jax: { 
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
 </head>
 
 <body>
@@ -54,125 +71,44 @@
 </ul></nav>
   <div id="main">
     <div id="content">
-<div class="blog-index">
-  		<article>
+<div>
+  <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">
-        <a href="http://lisafly.github.io/blog/alike-objects-in-r/">Alike Objects/Functions in R</a>
-      </h1>
-      <p class="meta"><time datetime="2013-12-05T00:19:25" pubdate>Dec 05, 2013</time></p>
+      <h1 class="entry-title">Lisa Is Learning</h1>
+      <p class="meta"><time datetime="2013-12-09T00:37:02" pubdate>Dec 09, 2013</time></p>
 </header>
 
-  <div class="entry-content"><h2>Matrix VS Data Frame:</h2>
-<ol>
-<li>
-<p>The data in a matrix must be of the same type while different columns 
-in a data frame can have different types.</p>
-</li>
-<li>
-<p>A data frame is much bigger than a matrix with the same dimension. 
-If possible, always use matrix instead of data frame to do ...</p></li></ol></div>
-  <footer>
-    <a rel="full-article" href="http://lisafly.github.io/blog/alike-objects-in-r/">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://lisafly.github.io/blog/inverse-of-matrix/">Inverse of a Special Class of Matrices with High Dimensions</a>
-      </h1>
-      <p class="meta"><time datetime="2013-10-30T22:12:02" pubdate>Oct 30, 2013</time></p>
-</header>
+  <div class="entry-content"><p>learning new staff is hard.....</p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">Chuanlong (Ben) Du</span>
+  </span>
+<time datetime="2013-12-09T00:37:02" pubdate>Dec 09, 2013</time>  <span class="categories">
+    <a class="category" href="http://lisafly.github.io/tag/l.html">L</a>
+  </span>
+</p>    </footer>
+  </article>
 
-  <div class="entry-content"><p><img src="http://legendu.net/media/math/matrix-inverse.png"
-width="200" height="160" align="right"/></p>
-<p>One day, my officemate Tieming asked me about a problem that she met in her research. 
-Suppose $\boldsymbol{B}$ is a symmetric matrix of huge dimension 
-and $\boldsymbol{D}$ is a diagonal matrix with nonnegative ...</p></div>
-  <footer>
-    <a rel="full-article" href="http://lisafly.github.io/blog/inverse-of-matrix/">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://lisafly.github.io/blog/keep-matrix-structure-r/">Keep Matrix Structure when Extract a Row/Column from a Matrix</a>
-      </h1>
-      <p class="meta"><time datetime="2012-08-16T00:00:00" pubdate>Aug 16, 2012</time></p>
-</header>
-
-  <div class="entry-content"><p>I talked in the post <a href="">Abuse of Vector in R</a> that 
-it is often the case that we want keep the matrix sturcture when 
-extracting a row/column from a matrix,
-i.e., we often want to return a matrix with 1 row/column when extracting 
-a row/column from ...</p></div>
-  <footer>
-    <a rel="full-article" href="http://lisafly.github.io/blog/keep-matrix-structure-r/">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://lisafly.github.io/blog/sas-iml-procedure/">Tips for the IML Procedure in SAS</a>
-      </h1>
-      <p class="meta"><time datetime="2012-07-11T00:00:00" pubdate>Jul 11, 2012</time></p>
-</header>
-
-  <div class="entry-content"><p><img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/></p>
-<ol>
-<li>
-<p>End an <code>IML</code> procedure with <code>quit</code>.</p>
-</li>
-<li>
-<p>The <code>IML</code> procedure does not support overloading functions. </p>
-</li>
-<li>
-<p>You can define functions in the <code>IML</code> procedure, and the definition can be nested. 
-That is you can define another function in a user-defined function. 
-Note that the order of definition of functions matter (similar to ...</p></li></ol></div>
-  <footer>
-    <a rel="full-article" href="http://lisafly.github.io/blog/sas-iml-procedure/">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://lisafly.github.io/blog/abuse-vector-r/">Abuse of Vector in R</a>
-      </h1>
-      <p class="meta"><time datetime="2012-05-16T00:00:00" pubdate>May 16, 2012</time></p>
-</header>
-
-  <div class="entry-content"><p>R is a language that is friendly to vector operation, 
-so vector is an important data structure in R. 
-A single data (of basic types, e.g., numeric or character) is essentially a
-vector of length 1. A matrix or an array in R is essentially a vector. 
-R make ...</p></div>
-  <footer>
-    <a rel="full-article" href="http://lisafly.github.io/blog/abuse-vector-r/">Read On &crarr;</a>
-  </footer>
-  		</article>
-<div class="pagination">
-
-  <br />
-</div></div>
+</div>
 <aside class="sidebar">
   <section>
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="http://lisafly.github.io/blog/alike-objects-in-r/">Alike Objects/Functions in R</a>
+          <a href="http://lisafly.github.io/blog/compress-and-decompress-in-linux/">Compress and Decompressing Archives in Linux</a>
       </li>
       <li class="post">
-          <a href="http://lisafly.github.io/blog/inverse-of-matrix/">Inverse of a Special Class of Matrices with High Dimensions</a>
+          <a href="http://lisafly.github.io/blog/useful-tools-linux/">Useful Tools in Linux</a>
       </li>
       <li class="post">
-          <a href="http://lisafly.github.io/blog/keep-matrix-structure-r/">Keep Matrix Structure when Extract a Row/Column from a Matrix</a>
+          <a href="http://lisafly.github.io/blog/macro-in-sas/">Macro in SAS</a>
       </li>
       <li class="post">
-          <a href="http://lisafly.github.io/blog/sas-iml-procedure/">Tips for the IML Procedure in SAS</a>
+          <a href="http://lisafly.github.io/blog/general-tips-for-sas/">General Tips for SAS</a>
       </li>
       <li class="post">
-          <a href="http://lisafly.github.io/blog/abuse-vector-r/">Abuse of Vector in R</a>
+          <a href="http://lisafly.github.io/blog/sas-data-manipulation/">Manipulate Data in SAS</a>
       </li>
     </ul>
   </section>
@@ -557,6 +493,9 @@ R make ...</p></div>
     </script>
 	<script type="text/javascript">
 	  var disqus_shortname = 'dclong';
+          var disqus_identifier = '/blog/lisa-is-learning/';
+          var disqus_url = 'http://lisafly.github.io/blog/lisa-is-learning/';
+          var disqus_title = 'Lisa Is Learning';
 	  (function() {
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
