@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Useful Tools in Linux</title>
+  <meta name="author" content="Lisha Li">
+
+  <link href="http://y570.stat.iastate.edu:8000/atom.xml" type="application/atom+xml" rel="alternate"
+        title="Lisha Li's Blog Atom Feed" />
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://y570.stat.iastate.edu:8000/favicon.png" rel="icon">
+  <link href="http://y570.stat.iastate.edu:8000/theme/css/main_2.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/modernizr-2.0.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/ender.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/octopress.js" type="text/javascript"></script>
+
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+      
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+           tex2jax: { 
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="http://y570.stat.iastate.edu:8000/">Lisha Li's Blog</a></h1>
+    <h2>It's never too late to learn.</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://y570.stat.iastate.edu:8000/atom.xml" rel="subscribe-rss">RSS</a></li>
+</ul>
+
+<form action="http://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:http://y570.stat.iastate.edu:8000" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+    <li><a href="http://y570.stat.iastate.edu:8000">Home</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000">Blog</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/archives.html">Archives</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/about.html">About</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/resume.html">Resume</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Useful Tools in Linux</h1>
+      <p class="meta"><time datetime="2013-12-05T14:42:24" pubdate>Dec 05, 2013</time></p>
+</header>
+
+  <div class="entry-content"><p><img src="http://dclong.github.io/media/linux/linux.png" height="200" width="240" align="right"/></p>
+<p><a href="http://www.icewalkers.com/">IceWalkers</a> is a great place 
+to find software/tools for all kinds of purposes.</p>
+<h2>Server/Desktop Management</h2>
+<h3>Software Installation/Remove/Recommendation</h3>
+<ol>
+<li>apt-get</li>
+<li>wajig</li>
+<li>Software Center</li>
+</ol>
+<h3>Terminal Tools</h3>
+<ol>
+<li>terminator</li>
+<li>screen, tmux</li>
+<li>nohup, disown</li>
+<li>nautilus-open-terminal</li>
+</ol>
+<h3>Administer</h3>
+<ol>
+<li>webmin, cloudmin, usermin</li>
+<li>id, adduser, gpasswd (recommended for adding/removing groups)</li>
+<li>uptime, top, netstat, ifconfig</li>
+</ol>
+<h3>Disk Maintainance</h3>
+<ol>
+<li>fdisk</li>
+<li>df</li>
+<li>badblocks</li>
+</ol>
+<h3>Resurce Statistics</h3>
+<ol>
+<li>top</li>
+<li>htop</li>
+<li>dstat</li>
+</ol>
+<h3>Security</h3>
+<ol>
+<li>fail2ban</li>
+<li>Tor (online anonymity)</li>
+</ol>
+<h3>Encryption</h3>
+<ol>
+<li>gpg </li>
+</ol>
+<h3>Time Synchronization</h3>
+<ol>
+<li>ntp (sync-debian)</li>
+</ol>
+<h3>Task Scheduling</h3>
+<ol>
+<li>at</li>
+<li>watch</li>
+<li>crontab</li>
+<li>inotify (monitoring file system changes and triger events)</li>
+</ol>
+<h2>Backup</h2>
+<h3>Cloud Backup Tools</h3>
+<ol>
+<li>Storage Made Simple (SME)</li>
+<li>Dropbox</li>
+<li>Ubuntu One</li>
+<li>AeroFS</li>
+<li>SparkleShare</li>
+<li>Google Drive</li>
+<li>bitcasa</li>
+<li>Box</li>
+<li>Copy</li>
+<li>Wuala</li>
+<li>bitTorrent Sync</li>
+<li>owncloud</li>
+<li>spiderOak</li>
+<li>Network Attach Storage (NAS)</li>
+</ol>
+<h3>Non-cloud Backup Tools</h3>
+<ol>
+<li>rsync (1-way synchronization)</li>
+<li>rsnapshot (incremental backup)</li>
+<li>duplicity (incremental backup with encryption and compression)</li>
+<li>unison (2-way synchronization)</li>
+<li>Back In Time</li>
+<li>Bacula (comprehensive backup tool)</li>
+</ol>
+<h2>Network</h2>
+<h3>Remote Tools</h3>
+<ol>
+<li>OpenSSH, keychain (keyring for OpenSSH)</li>
+<li>vnc</li>
+<li>sshfs</li>
+<li>Remmina</li>
+</ol>
+<h3>Network Maintaiance</h3>
+<ol>
+<li>arp-scan</li>
+<li>ping</li>
+</ol>
+<h3>Downloading Tools</h3>
+<ol>
+<li>Deluge (BitTorrent)</li>
+<li>transimission (BitTorrent)</li>
+<li>qBitTorrent (BitTorrent)</li>
+<li>rTorrent (command line BitTorrent)</li>
+<li>SubDownloader (download/upload subtitles of movies)</li>
+<li>aria2 (high speed command line download utility)</li>
+<li>wget</li>
+<li>curl</li>
+<li>mechanize, Selenium, iMacros</li>
+</ol>
+<h3>Anonymous Tools</h3>
+<ol>
+<li>VPN</li>
+<li>Proxy</li>
+<li>Anomos</li>
+<li>Tor</li>
+</ol>
+<h2>Compress and Uncompress</h2>
+<ol>
+<li>tar</li>
+<li>rar, unrar</li>
+<li>7z and 7za</li>
+<li>dtrx</li>
+<li>zip, unzip</li>
+<li>xarchive</li>
+</ol>
+<h2>Virtual Machine</h2>
+<ol>
+<li>VirtualBox</li>
+<li>VMWare</li>
+<li>Xen</li>
+<li>KVM (requires hardware support, e.g., Intel VT-x or AMD-V)</li>
+<li>QEMU-KVM (requires hardware support, e.g., Intel VT-x or AMD-V)</li>
+</ol>
+<h2>Cloud</h2>
+<ol>
+<li>OpenStack</li>
+</ol>
+<h2>Database Management System (DBMS)</h2>
+<h3>Relational DBMS</h3>
+<ol>
+<li>MySQL<ul>
+<li>MySQL Workbench </li>
+</ul>
+</li>
+<li>SQLite (embedded database)</li>
+</ol>
+<h3>Object/Document-oriented DBMS</h3>
+<ol>
+<li>MongoDB</li>
+<li>CouchDB</li>
+<li>OrientDB (written in Java)</li>
+<li>UnQLite (embedded database)</li>
+<li>MooDB (embeded database)</li>
+</ol>
+<h2>Daily Work Tools (Office Tools, etc.)</h2>
+<h3>Web Browser</h3>
+<ol>
+<li>Tor (online anonymity)</li>
+<li>Google Chrome<ul>
+<li>Vimimum, Vrome (Vim-like key bindings)</li>
+<li>AdBlock Plus (block ads)</li>
+<li>Pocket (save pages to read later)</li>
+<li>Send from Gmail (send the link of current page via Gmail)</li>
+<li>feedly (RSS feed)</li>
+<li>TV Clicker</li>
+<li>PrintFriendly (print web pages to PDF)</li>
+<li>Secure SSH (SSH client in Google)</li>
+</ul>
+</li>
+<li>Firefox/Iceweasel<ul>
+<li>Vimperator (Vim-like key bindings, the ultimate plugin for Firefox)</li>
+<li>AdBlock Plus (block ads)</li>
+<li>NoScript (block scripts on website which makes web surfing faster and securer)</li>
+<li>Pocket (save pages to read later)</li>
+<li>Flashblock (block flash vedio on websites which makes web surfing faster and securer)</li>
+<li>Shareaholic (the ultimate way to share webpages with yourself/friends)</li>
+<li>Xmarks (a standalone synchronization plugin for Firefox)</li>
+<li>feedly (RSS feed)</li>
+<li>FireSSH (SSH client for Firefox)</li>
+<li>firebug (the ultimate way to modify/hack websites)</li>
+<li>Greasemonkey/scriptish</li>
+<li>cliget<br />
+Generates curl/wget commands that emulate the request 
+as though it's coming from your browser 
+allowing you to download protected files directly to a separate machine.</li>
+<li>lget<br />
+Allows you to initiate a direct download of a file given a url.</li>
+<li>DownThemAll<br />
+The first and only download manager/accelerator built inside Firefox!</li>
+<li>PrintFriendly</li>
+<li>Open in Chrome</li>
+<li>IETab</li>
+<li>Live HTTP Headers<br />
+View HTTP headers of a page and while browsing.</li>
+</ul>
+</li>
+<li>w3m (a powerful text-based web browser) </li>
+<li>lynx (another text-based web browser)</li>
+</ol>
+<h3>(Automated) Web Browsing</h3>
+<ol>
+<li>wget</li>
+<li>libcurl/Curl/RCurl/... (command line web browsing/scripting)</li>
+<li>mechanize (web browsing/scripting written in python)</li>
+<li>Selenium, iMacros</li>
+</ol>
+<h3>Password Management</h3>
+<h4>GUI Password Manager</h4>
+<ol>
+<li>keepassx</li>
+<li>LastPass (for non-critical passwords)</li>
+</ol>
+<h4>Command-line Password Manager</h4>
+<ol>
+<li>pwman3</li>
+<li>pass</li>
+</ol>
+<h3>Data Manipulation</h3>
+<ol>
+<li>grep/sed/awk/cut/sort/uniq/comm</li>
+<li>catdoc/xls2csv/catppt</li>
+</ol>
+<h3>Text Editor</h3>
+<ol>
+<li>Vi/Vim (general purpose text editor)
+        - vim-addon-manager
+        - clang_complete
+        - supertab
+        - SuperSnipMate
+        - PythonMode
+        - pythoncomplete</li>
+<li>Gedit</li>
+<li>Geany</li>
+</ol>
+<h3>IDE</h3>
+<ol>
+<li>KDevelop (C++)</li>
+<li>Eclipse (for Java ,C++, Python, etc.)</li>
+<li>Spyder (Python)</li>
+<li>Eclipse + PyDev (python)</li>
+<li>PyCharm (Python)</li>
+<li>Qt Creater (for Qt development and general purpose C++ IDE)</li>
+<li>Rstudio (for R, Markdown ,C++, Latex, etc.) </li>
+<li>ReText (Markdown, reStructuredText)</li>
+<li>Markable (online Markdown editor)</li>
+<li>JuliaStudio (for Julia)</li>
+</ol>
+<h3>MS Office Alternative</h3>
+<ol>
+<li>gnumeric (Excel)</li>
+<li>AbiWord (Word)</li>
+<li>LibreOffice</li>
+<li>Calligra Suite (KDE dependent)</li>
+<li>WPS Office</li>
+</ol>
+<h3>Type Setting Tools</h3>
+<ol>
+<li>texlive</li>
+<li>texstudio</li>
+</ol>
+<h3>Dictionary</h3>
+<ol>
+<li>dict</li>
+</ol>
+<h3>Email Client</h3>
+<ol>
+<li>Thunderbird (called icedove in Debian)<ul>
+<li>Adblock Plus</li>
+<li>Provider for Google Calendar</li>
+<li>Muttator</li>
+</ul>
+</li>
+<li>Evolution</li>
+<li>Claws Mail</li>
+</ol>
+<h3>PDF Tools</h3>
+<h4>Reader/Viewer</h4>
+<ol>
+<li>evince</li>
+<li>xpdf</li>
+<li>okular</li>
+</ol>
+<h4>Manipulation</h4>
+<ol>
+<li>pdftk</li>
+</ol>
+<h3>Scientific Reference Managment</h3>
+<ol>
+<li>Mendeley</li>
+<li>ReadCube</li>
+<li>Zotero</li>
+<li>JabRef</li>
+</ol>
+<h3>E-book library management</h3>
+<ol>
+<li>calibre </li>
+</ol>
+<h3>Symbolic Computing</h3>
+<ol>
+<li>Methmatica</li>
+<li>sage</li>
+<li>Maxima</li>
+</ol>
+<h3>To-do list</h3>
+<ol>
+<li>Out of Milk</li>
+<li>Remember the Milk</li>
+</ol>
+<h3>Notes Taking</h3>
+<ol>
+<li>EverNote</li>
+<li>NixNote (3rd party cross-platform client for EverNote)</li>
+<li>GeekNote (command-line client for EverNote)</li>
+</ol>
+<h3>Automation Tools</h3>
+<ol>
+<li>AutoKey</li>
+<li>Selenium</li>
+<li>Macro in Vimperator</li>
+</ol>
+<h2>Programming Tools</h2>
+<h3>Compiler</h3>
+<ol>
+<li>GCC</li>
+<li>Clang</li>
+</ol>
+<h3>Debugging Tools</h3>
+<ol>
+<li>GDB</li>
+<li>Valgrind</li>
+<li>CUDA-Memcheck</li>
+</ol>
+<h3>Version Control</h3>
+<ol>
+<li>git</li>
+</ol>
+<h2>Media Tools</h2>
+<h3>CD/DVD burning</h3>
+<h4>GUI Tools</h4>
+<ol>
+<li>k3b  </li>
+<li>gnome baker</li>
+<li>brasero</li>
+</ol>
+<h4>Commandline Tools</h4>
+<ol>
+<li>xvidenc (shell script to encode DVDs to Xvid)</li>
+<li>isoinfo</li>
+<li>genisoimage (Debian) or mkisofs (other Linux)</li>
+<li>dd or cat</li>
+</ol>
+<h3>Video/Audio Player/Editing</h3>
+<ol>
+<li>vlc</li>
+<li>MPlayer, SMPlayer</li>
+<li>Kdenlive</li>
+<li>Lightworks</li>
+<li>ffmpeg</li>
+<li>HandBrake</li>
+</ol>
+<h3>Sound Synthesis</h3>
+<ol>
+<li>festival</li>
+</ol>
+<h3>Audio Editing</h3>
+<ol>
+<li>Ardour</li>
+<li>Audacity</li>
+</ol>
+<h3>Scan/OCR</h3>
+<ol>
+<li>VueScan</li>
+<li>tesseract</li>
+<li>gocr</li>
+</ol>
+<h3>Image</h3>
+<ol>
+<li>ImageMagic</li>
+<li>GwenView</li>
+</ol>
+<h3>Chart</h3>
+<ol>
+<li>Dia Diagram Editor</li>
+<li>LibreOffice Draw</li>
+</ol>
+<h3>3-D Modeling</h3>
+<ol>
+<li>blender</li>
+<li>freeCAD</li>
+<li>OpenSCAD</li>
+<li>Google Sketchup</li>
+<li>EQUINOX-3D</li>
+</ol>
+<h2>Social Tools</h2>
+<h3>Teleconference</h3>
+<ol>
+<li>Skype</li>
+</ol>
+<h2>Web Hosting</h2>
+<h3>Server Side Scripting Language</h3>
+<ol>
+<li>
+<p>PHP</p>
+</li>
+<li>
+<p>JSP</p>
+</li>
+</ol>
+<h3>Client Side Scripting Language</h3>
+<ol>
+<li>JavaScript</li>
+</ol>
+<h3>Integrated Package for Web Hosting</h3>
+<ol>
+<li>XAMPP (originaly called LAMPP)</li>
+</ol>
+<h3>Math in Web Pages</h3>
+<ol>
+<li>MathJax (a succesor to jsMath)</li>
+</ol>
+<h2>Performance Tools</h2>
+<h2>Boot Performance</h2>
+<ol>
+<li>
+<p>bootchart</p>
+</li>
+<li>
+<p>readahead-fedora</p>
+</li>
+</ol>
+<h2>Runtime Performance</h2>
+<ol>
+<li>
+<p>preload</p>
+</li>
+<li>
+<p>localepurge</p>
+</li>
+</ol>
+<h2>Other Suggestions</h2>
+<ol>
+<li>
+<p>remove old kernels</p>
+</li>
+<li>
+<p>package cleanup</p>
+</li>
+</ol>
+<h2>Web Tools</h2>
+<ol>
+<li>
+<ol>
+<li>JustInMind Prototyper</li>
+</ol>
+</li>
+<li>
+<p>Ruby On Rails (RoR)</p>
+</li>
+<li>
+<p>Django</p>
+</li>
+<li>
+<p>Node.JS</p>
+</li>
+<li>
+<p>ActiveJDBC</p>
+</li>
+<li>
+<p>web2py</p>
+</li>
+<li>
+<p>SAS Stored Process (Web Application) and SAS Visual Analytics</p>
+</li>
+</ol>
+<h2>Software Host</h2>
+<ol>
+<li>
+<p>GitHub</p>
+<ul>
+<li>no private repository for free account</li>
+</ul>
+</li>
+<li>
+<p>Bitbucket</p>
+<ul>
+<li>unlimited private repositories for free account</li>
+</ul>
+</li>
+<li>
+<p>SourceForge</p>
+</li>
+</ol>
+<h2>File Converting Tools</h2>
+<ol>
+<li>
+<p>pandoc</p>
+</li>
+<li>
+<p>knitr (an R package)</p>
+</li>
+<li>
+<p>convert</p>
+</li>
+<li>
+<p>pdflatex </p>
+</li>
+<li>
+<p>dos2unix, unix2dos</p>
+</li>
+</ol>
+<h2>Windows Emulation</h2>
+<ol>
+<li>VirtualBox, VMWare</li>
+<li>Wine, CrossOver</li>
+</ol>
+<h2>Business</h2>
+<ol>
+<li>gnucash</li>
+<li>DocumentBurst</li>
+</ol>
+<h2>Websites</h2>
+<ol>
+<li>MileWise</li>
+<li>BTGuard</li>
+<li>http://dedalvs.tumblr.com/post/48998678919/99-life-hacks-to-make-your-life-easier</li>
+</ol></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">Chuanlong (Ben) Du</span>
+  </span>
+<time datetime="2013-12-05T14:42:24" pubdate>Dec 05, 2013</time>  <span class="categories">
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/shell.html">shell</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/remote.html">remote</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/pdf.html">PDF</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/software.html">software</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/tools.html">tools</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/statistics.html">statistics</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/terminal.html">terminal</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/application.html">application</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/linux.html">Linux</a>
+  </span>
+</p>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/compress-and-decompress-in-linux/">Compress and Decompressing Archives in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/useful-tools-linux/">Useful Tools in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/macro-in-sas/">Macro in SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-sas/">General Tips for SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/sas-data-manipulation/">Manipulate Data in SAS</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problem.html">fun problem</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problems.html">Fun Problems</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/linux.html">Linux</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/programming.html">Programming</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/research.html">Research</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/software.html">Software</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/statistics.html">Statistics</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/windows.html">Windows</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/work.html">Work</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+  <p class="tagcloud">
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/recursion.html">recursion</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/puzzle.html">puzzle</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/skills.html">skills</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sequence.html">sequence</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/os.html">OS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/list.html">list</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/formula.html">formula</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/stochastic.html">stochastic</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/network.html">network</a>
+          </span>
+          <span class="tag-2">
+              <a href="http://y570.stat.iastate.edu:8000/tag/r.html">R</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/windows.html">Windows</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/graphics.html">graphics</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/array.html">array</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/operator.html">operator</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rng.html">RNG</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/shell.html">shell</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vbvbnet.html">VB/VB.net</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/martingale.html">martingale</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ubuntu.html">Ubuntu</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/fun-problems.html">fun problems</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debian.html">Debian</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/configuration.html">configuration</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/c.html">C++</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/java.html">Java</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matrix.html">matrix</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/backup.html">backup</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bug.html">bug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/regex.html">regex</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/parallel.html">parallel</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/work.html">Work</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pdf.html">PDF</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vim.html">Vim</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/concurrency.html">concurrency</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/math.html">math</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/library.html">library</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vector.html">vector</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/dropbox.html">Dropbox</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/function.html">function</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/terminal.html">terminal</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mathematica.html">Mathematica</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/software.html">software</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ide.html">IDE</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/require.html">require</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trap.html">trap</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/tips.html">tips</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/eclipse.html">Eclipse</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debug.html">debug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/number.html">number</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/coin.html">coin</a>
+          </span>
+          <span class="tag-1">
+              <a href="http://y570.stat.iastate.edu:8000/tag/programming.html">programming</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/server.html">server</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/office.html">office</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/data-frame.html">data frame</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/de.html">DE</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compiler.html">compiler</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/synchronization.html">synchronization</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/email.html">email</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/distribution.html">distribution</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mt.html">MT</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/d.html">D</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/package.html">package</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compile.html">compile</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/latex.html">Latex</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/verizon.html">verizon</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/research.html">research</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rcpp.html">Rcpp</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trick.html">trick</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/permutation.html">permutation</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/loop.html">loop</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/python.html">Python</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/image.html">image</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/condition.html">condition</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/markov-chain.html">Markov chain</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/override.html">override</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matlab.html">MATLAB</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/thread.html">thread</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/anti-virus.html">anti-virus</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/jekyll.html">Jekyll</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/chinese.html">Chinese</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ruby.html">Ruby</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sas.html">SAS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bash.html">bash</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/hpc.html">HPC</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/web.html">Web</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/string.html">string</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/plot.html">plot</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/statistics.html">statistics</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pattern.html">pattern</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/io.html">IO</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/linux.html">Linux</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/cc.html">C/C++</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mutex.html">mutex</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/lock.html">lock</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/julia.html">Julia</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/phone.html">phone</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/character.html">character</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ssh.html">SSH</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/portable.html">portable</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/remote.html">remote</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/probability.html">probability</a>
+          </span>
+  </p>
+  </section>
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+      <a href="https://github.com/dclong">@dclong</a> on GitHub
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = 'http://y570.stat.iastate.edu:8000/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'dclong',
+              count: 3,
+              skip_forks: true,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="http://y570.stat.iastate.edu:8000/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+    <section>
+        <h1>Social</h2>
+        <ul>
+            <li><a href="http://www.linkedin.com/pub/chuanlong-ben-du/21/9b2/123/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/longendu" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/chuanlong.du" target="_blank">Facebook</a></li>
+        <!--
+            <li><a href="http://y570.stat.iastate.edu:8000/" type="application/rss+xml" rel="alternate">RSS</a></li>
+            -->
+        </ul>
+    </section>
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Lisha Li -
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30259661-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+	<script type="text/javascript">
+	  var disqus_shortname = 'dclong';
+          var disqus_identifier = '/blog/useful-tools-linux/';
+          var disqus_url = 'http://y570.stat.iastate.edu:8000/blog/useful-tools-linux/';
+          var disqus_title = 'Useful Tools in Linux';
+	  (function() {
+	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	   })();
+	</script>
+</body>
+</html>

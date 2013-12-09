@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lisha Li's Blog</title><link href="http://y570.stat.iastate.edu:8000/" rel="alternate"></link><link href="http://y570.stat.iastate.edu:8000/feeds/windows.atom.xml" rel="self"></link><id>http://y570.stat.iastate.edu:8000/</id><updated>2012-09-01T00:00:00-07:00</updated><entry><title>Tips for Windows Operating System</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-windows/" rel="alternate"></link><updated>2012-09-01T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-01:blog/tips-windows/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/windows/windows.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;h2&gt;Tricky Problem&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;When Dropbox is working on files, they might become unaccessible
+temporarily. If you believe a problem is result from Dropbox, you
+can try your operation again. If it still does not work, then quit
+Dropbox and redo your operations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Tips&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;To add a entry into the right-click menu, you can modified the
+registry and modify it as follows:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;under the key
+&lt;code&gt;HKEY_CLASSES_ROOT\Directory\Background\shell&lt;/code&gt;, create
+another key with any name and in right-side pane set its value
+to the label, which you want to show in desktop context menu,
+like Media Player, Winamp, Firefox, anything else.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;create another key under this newly created key with name
+command, and in right-side pane set its value to the exact path
+of application,
+e.g. &lt;code&gt;C:\Program Files\RStudio\bin\rstudio.exe&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Though you can also use &lt;code&gt;/&lt;/code&gt; as the delimiter for paths in Windows
+system sometimes, you can only use &lt;code&gt;\&lt;/code&gt; as the delimiter
+for paths when you use DOS command, because &lt;code&gt;/&lt;/code&gt; has been already
+used for other meanings in DOS command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;?&lt;/code&gt; stand for a single character in DOS command, 
+and &lt;code&gt;??&lt;/code&gt; stand for one or two characters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;By default Windows 7 updates automatically unless you turn the auto
+update off. This can be annoying if you do some long time computing
+in Windows, because the auto-updating might force the computer to
+reboot when the computing is still running. A way to solve this
+problem is to turn off the auto-updating before you do computing in
+Windows. However it is a convenient way, because you have to turn on
+the auto-updating after the computing is done. A better way is to
+lock your computer, in this way the auto-updating will be halt and
+won't screw up your running program. What's more, this can also
+prevent your privacy from other people. (Actually I have to check
+whether it is because of lock or it is just because of the computer is
+too busy.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;KIS under Setting/Firewall/Settings/Networks, 
+edited my WiFi network from Public to Local Network&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;VBScript&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;An VBScript is accesible anywhere if it is placed into a searchable path 
+(a path included in the path environment). &lt;/li&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="anti-virus"></category><category term="Windows"></category><category term="Dropbox"></category><category term="OS"></category></entry></feed>

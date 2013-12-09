@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Functions and Calls in R</title>
+  <meta name="author" content="Lisha Li">
+
+  <link href="http://y570.stat.iastate.edu:8000/atom.xml" type="application/atom+xml" rel="alternate"
+        title="Lisha Li's Blog Atom Feed" />
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://y570.stat.iastate.edu:8000/favicon.png" rel="icon">
+  <link href="http://y570.stat.iastate.edu:8000/theme/css/main_2.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/modernizr-2.0.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/ender.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/octopress.js" type="text/javascript"></script>
+
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+      
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+           tex2jax: { 
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="http://y570.stat.iastate.edu:8000/">Lisha Li's Blog</a></h1>
+    <h2>It's never too late to learn.</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://y570.stat.iastate.edu:8000/atom.xml" rel="subscribe-rss">RSS</a></li>
+</ul>
+
+<form action="http://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:http://y570.stat.iastate.edu:8000" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+    <li><a href="http://y570.stat.iastate.edu:8000">Home</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000">Blog</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/archives.html">Archives</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/about.html">About</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/resume.html">Resume</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Functions and Calls in R</h1>
+      <p class="meta"><time datetime="2013-12-05T00:15:37" pubdate>Dec 05, 2013</time></p>
+</header>
+
+  <div class="entry-content"><ol>
+<li>
+<p>You can assign value to an R object by its name (in string) using the function <code>assign</code>. </p>
+<div class="highlight"><pre><span class="o">&gt;</span> <span class="n">assign</span><span class="p">(</span><span class="s">&quot;x&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="n">x</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mi">1</span>
+</pre></div>
+
+
+<p>You can get the value (i.e., deep copy not reference) of an R object 
+(for general expression, use <code>eval</code> with <code>deparse</code>)
+by its name (string) using the function <code>get</code>. </p>
+<div class="highlight"><pre><span class="o">&gt;</span> <span class="nx">get</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="cp">[</span><span class="mi">1</span><span class="cp">]</span> <span class="mi">1</span>
+<span class="o">&gt;</span> <span class="nx">get</span><span class="p">(</span><span class="nx">paste</span><span class="p">(</span><span class="s2">&quot;as.&quot;</span><span class="p">,</span><span class="s2">&quot;character&quot;</span><span class="p">,</span><span class="nx">sep</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">))</span>
+<span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="p">...)</span>  <span class="p">.</span><span class="nx">Primitive</span><span class="p">(</span><span class="s2">&quot;as.character&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="nx">get</span><span class="p">(</span><span class="nx">paste</span><span class="p">(</span><span class="s2">&quot;as.&quot;</span><span class="p">,</span><span class="s2">&quot;character&quot;</span><span class="p">,</span><span class="nx">sep</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">))(</span><span class="mi">1</span><span class="p">)</span>
+<span class="cp">[</span><span class="mi">1</span><span class="cp">]</span> <span class="s2">&quot;1&quot;</span>
+</pre></div>
+
+
+<p>On the contratry, 
+you can use the function <code>substitute</code> or <code>quote</code> to get the name (string) of an object, </p>
+<div class="highlight"><pre><span class="o">&gt;</span> <span class="n">deparse</span><span class="p">(</span><span class="n">substitute</span><span class="p">(</span><span class="n">ftree_0_4_0_0</span><span class="mf">.5</span><span class="n">_100</span><span class="p">))</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="s">&quot;ftree_0_4_0_0.5_100&quot;</span>
+<span class="o">&gt;</span> <span class="n">as</span><span class="p">.</span><span class="n">character</span><span class="p">(</span><span class="n">substitute</span><span class="p">(</span><span class="n">ftree_0_4_0_0</span><span class="mf">.5</span><span class="n">_100</span><span class="p">))</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="s">&quot;ftree_0_4_0_0.5_100&quot;</span>
+<span class="o">&gt;</span> <span class="n">as</span><span class="p">.</span><span class="n">character</span><span class="p">(</span><span class="n">quote</span><span class="p">(</span><span class="n">ftree_0_4_0_0</span><span class="mf">.5</span><span class="n">_100</span><span class="p">))</span>
+</pre></div>
+
+
+<p>The function <code>dclong.fs::sym2str</code> is an interesting one 
+which tries to be smart to convert an R object to the right string. 
+Note that <code>get</code> only works on object names not string containing general expressions. 
+To evaluate a string containing an R expression, 
+you have to first parse it using the function <code>parse</code> 
+and then evaluate it using the function <code>eval</code>.</p>
+<div class="highlight"><pre><span class="n">eval</span><span class="p">(</span><span class="n">parse</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">&quot;x + 1&quot;</span><span class="p">))</span>
+</pre></div>
+
+
+</li>
+<li>
+<p>There are several ways to create function calls without executing it. 
+The first way is to use <code>call</code> by passing the name of a function 
+and corresponding parameters to it. </p>
+<div class="highlight"><pre><span class="n">call</span><span class="p">(</span><span class="s">&quot;rnorm&quot;</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">rnorm</span><span class="p">.</span><span class="n">call</span>
+<span class="n">eval</span><span class="p">(</span><span class="n">rnorm</span><span class="p">.</span><span class="n">call</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">]</span>  <span class="mf">0.7618801</span> <span class="o">-</span><span class="mf">1.2722733</span>  <span class="mf">1.1521628</span>
+</pre></div>
+
+
+<p>The second way is to create a list containing a function, 
+and parameters to be passed to the function, 
+and then set the mode of the list to "call" or coerce it to a call using <code>as.call</code>. </p>
+<div class="highlight"><pre><span class="n">list</span><span class="p">(</span><span class="n">rnorm</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span><span class="n">mean</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">call</span><span class="p">.</span><span class="n">rnorm</span>
+<span class="n">mode</span><span class="p">(</span><span class="n">call</span><span class="p">.</span><span class="n">rnorm</span><span class="p">)</span> <span class="o">=</span> <span class="err">&#39;</span><span class="n">call</span><span class="err">&#39;</span>
+<span class="n">eval</span><span class="p">(</span><span class="n">call</span><span class="p">.</span><span class="n">rnorm</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mf">3.842330</span> <span class="mf">3.027134</span> <span class="mf">3.515679</span> <span class="mf">2.346022</span>
+</pre></div>
+
+
+<p>The last way is to use the function <code>parse</code> to parse expressions (string).</p>
+<div class="highlight"><pre><span class="n">expr</span> <span class="o">=</span> <span class="n">parse</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">&quot;rnorm(3)&quot;</span><span class="p">)</span>
+<span class="n">eval</span><span class="p">(</span><span class="n">expr</span><span class="p">)</span>
+</pre></div>
+
+
+<p>This is useful when you want delayed evaluation or flexible calls.
+Though you can make a function flexible using dots arguments ("..."), 
+you can use only one dots arguments, 
+and all arguments in the dots arguments must be pass to one function. 
+Using list with mode "call" and <code>eval</code>, 
+you can make a user-defined function accept list as argument, 
+which contains arguments to be passed to a call in the user-defined function. 
+In this way, 
+the list argument containing arguments to be passed to a call is comparable to the dots argument.
+The advantage of list argument over the dots argument is that 
+you can use more than multiple list arguments containing arguments 
+to be passed to different calls in a user-defined function, 
+thus it's even more flexible. 
+Another smart use of call and <code>eval</code> is to apply a function over a list of argument. 
+For example, 
+if you want to convert a list (of vectors/matrices) to a matrix, 
+you can use the following code.</p>
+<div class="highlight"><pre><span class="cp">#create a list with elements being 2*2 matrices</span>
+<span class="n">x</span><span class="o">=</span><span class="n">list</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="n">matrix</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span><span class="n">b</span><span class="o">=</span><span class="n">matrix</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span><span class="n">c</span><span class="o">=</span><span class="n">matrix</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="o">&gt;</span> <span class="n">eval</span><span class="p">(</span><span class="n">as</span><span class="p">.</span><span class="n">call</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="n">rbind</span><span class="p">,</span><span class="n">x</span><span class="p">)))</span>
+     <span class="p">[,</span><span class="mi">1</span><span class="p">]</span> <span class="p">[,</span><span class="mi">2</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,]</span>    <span class="mi">0</span>    <span class="mi">0</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,]</span>    <span class="mi">0</span>    <span class="mi">0</span>
+<span class="p">[</span><span class="mi">3</span><span class="p">,]</span>    <span class="mi">1</span>    <span class="mi">1</span>
+<span class="p">[</span><span class="mi">4</span><span class="p">,]</span>    <span class="mi">1</span>    <span class="mi">1</span>
+<span class="p">[</span><span class="mi">5</span><span class="p">,]</span>    <span class="mi">2</span>    <span class="mi">2</span>
+<span class="p">[</span><span class="mi">6</span><span class="p">,]</span>    <span class="mi">2</span>    <span class="mi">2</span>
+<span class="p">[</span><span class="mi">7</span><span class="p">,]</span>    <span class="mi">3</span>    <span class="mi">3</span>
+<span class="p">[</span><span class="mi">8</span><span class="p">,]</span>    <span class="mi">3</span>    <span class="mi">3</span>
+</pre></div>
+
+
+<p>There is another R <code>do.call</code> which performs the above operations at once, 
+i.e., it constructs and executes a function call from a name or a function 
+and a list of arguments to be passed to it. 
+The following is another example of converting a list (of vectors/matrices) to a matrix.</p>
+<div class="highlight"><pre><span class="o">&gt;</span> <span class="k">do</span><span class="p">.</span><span class="n">call</span><span class="p">(</span><span class="n">cbind</span><span class="p">,</span> <span class="n">list</span><span class="p">(</span><span class="n">matrix</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span><span class="n">matrix</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)))</span>
+<span class="p">[,</span><span class="mi">1</span><span class="p">]</span> <span class="p">[,</span><span class="mi">2</span><span class="p">]</span> <span class="p">[,</span><span class="mi">3</span><span class="p">]</span> <span class="p">[,</span><span class="mi">4</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,]</span>    <span class="mi">0</span>    <span class="mi">0</span>    <span class="mi">1</span>    <span class="mi">1</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,]</span>    <span class="mi">0</span>    <span class="mi">0</span>    <span class="mi">1</span>    <span class="mi">1</span>
+</pre></div>
+
+
+<p>In <code>data-structures</code>, 
+you learned that there is a <code>sapply</code> which can apply a function over a list. 
+The difference between <code>do.call</code> and <code>sapply</code> is that<br />
+<code>do.call</code> takes the whole list as an argument and returns only one result 
+while  <code>sapply</code> takes each element of the list as argument and returns a list of results 
+(Sometimes, theses results are reformed to a simpler data structure, 
+e.g. a vector or a matrix.).</p>
+</li>
+<li>
+<p>To check whether an object is a call, you can use <code>is.call</code>.</p>
+</li>
+<li>
+<p>You can refer to missing arguments in user-defined functions. 
+R won't complain until these missing arguments are really required.
+For example consider the following silly function.</p>
+<div class="highlight"><pre><span class="o">&gt;</span> <span class="nx">ftemp</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span><span class="nx">y</span><span class="p">){</span>
+<span class="o">+</span>   <span class="k">if</span><span class="p">(</span><span class="nx">x</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">){</span>
+<span class="o">+</span>     <span class="k">return</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+<span class="o">+</span>   <span class="p">}</span>
+<span class="o">+</span>   <span class="k">return</span><span class="p">(</span><span class="nx">ftemp</span><span class="p">(</span><span class="nx">x</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="nx">y</span><span class="o">=</span><span class="nx">y</span><span class="p">))</span>
+<span class="o">+</span> <span class="p">}</span>
+<span class="o">&gt;</span> <span class="nx">ftemp</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="cp">[</span><span class="mi">1</span><span class="cp">]</span> <span class="s2">&quot;...&quot;</span>
+</pre></div>
+
+
+<p>Notice that <code>ftemp(-1)</code> calls <code>ftemp(x=1,y=y)</code>. 
+You might think that this is not valid because the argument <code>y</code> is missing, 
+however, 
+R does not complain about it because the argument <code>y</code> is never used.</p>
+</li>
+<li>
+<p>Function <code>try</code> allows us to handle error-recovery, 
+which is similar to <code>try-catch-end try</code> in vb.net. 
+If you this function, 
+R does not stop executing code when error is detected, 
+rather you can decide what to do when error happens.</p>
+</li>
+<li>
+<p>We can use function <code>switch</code> to write branch statement in R, 
+however this function is not very friendly.</p>
+</li>
+<li>
+<p>We can use command <code>stop</code> to stop executing a function in R, 
+however it will print error message at the same time. 
+And what's more, 
+no values can be returned. 
+To avoid printing error messages or to return values when exiting a function, 
+we can use function <code>return</code>.
+Even if a function do not return anything, 
+we can pass it as a argument to <code>return</code>, 
+and absolutely nothing will be return in this case. 
+This can be help if we do not want anything to be return in a user-defined function. 
+Notice that you can use return as a statement (i.e. put it on a single line), 
+but it has no effect.</p>
+</li>
+<li>
+<p>You can use the names of build-in functions in R as parameter in self-defined functions. 
+To avoid confusion, we can we use name space such as <code>base::matrix</code> instead of <code>matrix</code>.</p>
+</li>
+<li>
+<p>You can define overloaded functions and functions with uncertain number of variables (using <code>...</code>).</p>
+</li>
+<li>
+<p>We can define a function inside another function in R.
+This can be helpful when we want to define some function that never be used again.</p>
+</li>
+<li>
+<p>You can define sub functions in a function, which is very convenient.
+For example, 
+sometimes you want to call another function inside a function. 
+However, 
+the function that you want to call is different every time 
+and you even do not how to define it before you get intermediate results, 
+i.e. the function that you want to call does not just differ in the form of arguments. 
+To achieve this, 
+you can use the strategy of defining sub functions inside a function.</p>
+</li>
+<li>
+<p>Some functions in R require a function as argument. 
+To pass value to the argument, 
+you can directly give the define of a function instead of writing a function first 
+and then pass the name of the defined function to the argument. 
+This can be very convenient sometime, 
+e.g. when you use function <code>apply</code>, 
+the function that you want to call is not define in R yet very simple, 
+then you can use the strategy of passing definition to argument.</p>
+</li>
+<li>
+<p>In R the arguments passed to a function can be changed, 
+e.g. if x is a argument a function, 
+then you can assign a new value to x. 
+Notice that in some other languages, 
+the arguments passed to a function cannot be changed, e.g. Mathematica.</p>
+</li>
+<li>
+<p>For most functions in R, 
+you can just type in their names in R GUI to get their source code; 
+for functions written in S3, 
+you can use function <code>getS3method</code> to get their source code; 
+for other functions written in C or Fortran, 
+you have to download the source code of R in order to find the source code of these functions.</p>
+</li>
+<li>
+<p>For a R function which accepts the dots argument (...), 
+you can pass basically any argument to it including dots itself. 
+So if you want to pass all stuff in a dots argument to a function, 
+you don't have to parse it.</p>
+</li>
+<li>
+<p>Usually built-in R functions have many arguments 
+and because R use partial matches to pass arguments to functions, 
+you might never get a warning message 
+if you use some argument that actually does not exist. 
+If this happens when you use a function directly, 
+it is possible for you to find this subtle mistake. 
+However, if you make this kind of mistakes in a user-defined function, 
+then it can be a very tricky bug. 
+So it is recommended that you always check the arguments of functions 
+that you are not very familiar with before you use it. 
+When you come across some tricky bugs, 
+you might want to check whether it is resulted from miss-passed argument(s) or not.</p>
+</li>
+<li>
+<p>The difference between <code>ifelse</code> and <code>if()… else …</code>. <code>ifelse</code> is a vector function 
+but if()… else not. 
+Generally speaking, if()… else… is used in a loop.</p>
+</li>
+<li>
+<p>R uses buffer to store the output and then print it when the buffer is full. 
+In order to print the information immediately you can use function <code>flush.console</code> 
+after you use function <code>cat</code> to print out information.</p>
+</li>
+<li>
+<p>It is suggested that you always use <code>{}</code> when use branches and loops in R.</p>
+</li>
+<li>
+<p>An R object exists ever since it is defined 
+until the end of its current evaluation environment. 
+So unlike C++ and Java in which an object defined in a block is only in effect in that block, 
+an object in R defined in a block will still be in effect outside the block.</p>
+</li>
+<li>
+<p>Function <code>with</code> allows us to evaluate expressions in a data environment, 
+so it's convenient to use it to work with data frames.</p>
+</li>
+<li>
+<p>You can use <code>T</code> to stand for <code>TRUE</code> and <code>F</code> stand for <code>FALSE</code> when you write code in R, 
+but you'd better use <code>TRUE</code> and <code>FALSE</code> 
+when you write user-defined functions 
+because <code>T</code> and <code>F</code> are actually global variables that are defined as <code>TRUE</code> and <code>FALSE</code> 
+while <code>TRUE</code> and <code>FALSE</code> are constant in R.</p>
+</li>
+<li>
+<p>The function<code>missing</code> tests whether a value has been specified as an argument for a function, 
+so it can be used write very robust functions and functions with flexible number of arguments.</p>
+</li>
+<li>
+<p>Some functions in R can only be use when R is run in interactive
+mode. If you want your code to run flawlessly in any mode, you can
+use <code>interactive</code> to check whether R is run in interactive mode or
+command mode, and modify your code correspondingly. Notice that when
+compiling an R package (commands such as <code>R CMD build</code> are used),
+R is run in command mode. As the reason mentioned before, some of
+your examples might not run correctly, which can make your package
+fail to pass the test. A simply tricky is to include your code in
+block <code>if(interactive()){}</code>, so that it will not run when the package
+is compiled while it runs perfectly when copied and pasted in R GUI.</p>
+</li>
+<li>
+<p><code>pmatch</code> performs partial string matching. If a function takes a
+string argument, you can incorporate partial matching technic so
+that the users can use partial values for the string argument. This
+can make it a better experience for users to use the function.</p>
+</li>
+<li>
+<p>Usually a <code>for</code> loop is more convenient than a <code>while</code> loop in all
+kinds of programing languages. However, a <code>for</code> loop in R requires a
+vector specifying the loop range. Sometimes it's not very convenient
+to construct a general purpose vector for a loop, e.g. if a loop
+starts from <code>loopStart</code> and ends at <code>loopEnd</code> with a step <code>loopStep</code>
+but <code>loopEnd</code> is not always greater than <code>loopStart</code>, then it's
+clumsy to use <code>loop</code>. In this kind of situations, you can use a
+<code>while</code> loop instead.</p>
+</li>
+<li>
+<p>The vector in a for loop is calculated once and stored. So it will not
+take more time if you put an expression which generate the needed
+vector in for loop. What is more, if you use an existing vector, the
+for loop will not be affected even if you change the original vector.
+(How about while loop? I think it is the same. In a word, the
+conditions is determined before the loop and cannot be changed in
+the loop. It is the same in Matlab, but different in Java[^18].)</p>
+</li>
+<li>
+<p><code>addTaskCallback</code> registers an R function that is to be called each
+time a top-level task is completed. and removeTaskCallback and
+taskCallbackManager, these are very useful functions.</p>
+</li>
+</ol></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">Chuanlong (Ben) Du</span>
+  </span>
+<time datetime="2013-12-05T00:15:37" pubdate>Dec 05, 2013</time>  <span class="categories">
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/r.html">R</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/function.html">function</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/programming.html">programming</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/call.html">call</a>
+  </span>
+</p>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/compress-and-decompress-in-linux/">Compress and Decompressing Archives in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/useful-tools-linux/">Useful Tools in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/macro-in-sas/">Macro in SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-sas/">General Tips for SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/sas-data-manipulation/">Manipulate Data in SAS</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problem.html">fun problem</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problems.html">Fun Problems</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/linux.html">Linux</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/programming.html">Programming</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/research.html">Research</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/software.html">Software</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/statistics.html">Statistics</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/windows.html">Windows</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/work.html">Work</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+  <p class="tagcloud">
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/recursion.html">recursion</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/puzzle.html">puzzle</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/skills.html">skills</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sequence.html">sequence</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/os.html">OS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/list.html">list</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/formula.html">formula</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/stochastic.html">stochastic</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/network.html">network</a>
+          </span>
+          <span class="tag-2">
+              <a href="http://y570.stat.iastate.edu:8000/tag/r.html">R</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/windows.html">Windows</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/graphics.html">graphics</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/array.html">array</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/operator.html">operator</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rng.html">RNG</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/shell.html">shell</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vbvbnet.html">VB/VB.net</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/martingale.html">martingale</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ubuntu.html">Ubuntu</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/fun-problems.html">fun problems</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debian.html">Debian</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/configuration.html">configuration</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/c.html">C++</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/java.html">Java</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matrix.html">matrix</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/backup.html">backup</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bug.html">bug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/regex.html">regex</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/parallel.html">parallel</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/work.html">Work</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pdf.html">PDF</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vim.html">Vim</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/concurrency.html">concurrency</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/math.html">math</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/library.html">library</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vector.html">vector</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/dropbox.html">Dropbox</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/function.html">function</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/terminal.html">terminal</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mathematica.html">Mathematica</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/software.html">software</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ide.html">IDE</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/require.html">require</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trap.html">trap</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/tips.html">tips</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/eclipse.html">Eclipse</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debug.html">debug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/number.html">number</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/coin.html">coin</a>
+          </span>
+          <span class="tag-1">
+              <a href="http://y570.stat.iastate.edu:8000/tag/programming.html">programming</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/server.html">server</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/office.html">office</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/data-frame.html">data frame</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/de.html">DE</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compiler.html">compiler</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/synchronization.html">synchronization</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/email.html">email</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/distribution.html">distribution</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mt.html">MT</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/d.html">D</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/package.html">package</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compile.html">compile</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/latex.html">Latex</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/verizon.html">verizon</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/research.html">research</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rcpp.html">Rcpp</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trick.html">trick</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/permutation.html">permutation</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/loop.html">loop</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/python.html">Python</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/image.html">image</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/condition.html">condition</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/markov-chain.html">Markov chain</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/override.html">override</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matlab.html">MATLAB</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/thread.html">thread</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/anti-virus.html">anti-virus</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/jekyll.html">Jekyll</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/chinese.html">Chinese</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ruby.html">Ruby</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sas.html">SAS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bash.html">bash</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/hpc.html">HPC</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/web.html">Web</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/string.html">string</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/plot.html">plot</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/statistics.html">statistics</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pattern.html">pattern</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/io.html">IO</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/linux.html">Linux</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/cc.html">C/C++</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mutex.html">mutex</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/lock.html">lock</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/julia.html">Julia</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/phone.html">phone</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/character.html">character</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ssh.html">SSH</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/portable.html">portable</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/remote.html">remote</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/probability.html">probability</a>
+          </span>
+  </p>
+  </section>
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+      <a href="https://github.com/dclong">@dclong</a> on GitHub
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = 'http://y570.stat.iastate.edu:8000/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'dclong',
+              count: 3,
+              skip_forks: true,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="http://y570.stat.iastate.edu:8000/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+    <section>
+        <h1>Social</h2>
+        <ul>
+            <li><a href="http://www.linkedin.com/pub/chuanlong-ben-du/21/9b2/123/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/longendu" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/chuanlong.du" target="_blank">Facebook</a></li>
+        <!--
+            <li><a href="http://y570.stat.iastate.edu:8000/" type="application/rss+xml" rel="alternate">RSS</a></li>
+            -->
+        </ul>
+    </section>
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Lisha Li -
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30259661-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+	<script type="text/javascript">
+	  var disqus_shortname = 'dclong';
+          var disqus_identifier = '/blog/functions-and-calls-in-r/';
+          var disqus_url = 'http://y570.stat.iastate.edu:8000/blog/functions-and-calls-in-r/';
+          var disqus_title = 'Functions and Calls in R';
+	  (function() {
+	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	   })();
+	</script>
+</body>
+</html>

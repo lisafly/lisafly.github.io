@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lisha Li's Blog</title><link href="http://y570.stat.iastate.edu:8000/" rel="alternate"></link><link href="http://y570.stat.iastate.edu:8000/feeds/software.atom.xml" rel="self"></link><id>http://y570.stat.iastate.edu:8000/</id><updated>2013-11-16T21:38:41-08:00</updated><entry><title>Rstudio Does Not Start</title><link href="http://y570.stat.iastate.edu:8000/blog/rstudio-not-start/" rel="alternate"></link><updated>2013-11-16T21:38:41-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-16:blog/rstudio-not-start/</id><summary type="html">&lt;p&gt;Rstudio is the best cross-platform IDE for R so far. 
+It is a lot like the IDE of matlab.
+Once I came across the problem that Rstudio did not start. 
+I search website for a solution but has no luck. 
+I have seen broken configuration files prevent applications 
+from working correctly a lot.
+So I tried removing the configuration directory ".rstudio-desktop" from my home directory, 
+and Rstudio worked properly again!
+This trick also works for many other applications, 
+e.g., forefix, latex (temporary files), etc.&lt;/p&gt;</summary><category term="IDE"></category><category term="R"></category><category term="statistics"></category><category term="software"></category><category term="configuration"></category></entry><entry><title>Resizing Hard Disk Of Guest Machine In Virtualbox</title><link href="http://y570.stat.iastate.edu:8000/blog/resizing-hard-disk-of-guest-machine-in-virtualbox/" rel="alternate"></link><updated>2013-11-03T00:00:13-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-03:blog/resizing-hard-disk-of-guest-machine-in-virtualbox/</id><summary type="html">&lt;p&gt;Suppose you have virtual hard disk in VirtualBox called &lt;code&gt;xp.vdi&lt;/code&gt;, 
+you can resize it (megabytes) using the following command.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;VBoxManage&lt;/span&gt; &lt;span class="n"&gt;modifyhd&lt;/span&gt; &lt;span class="n"&gt;xp&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;vdi&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;resize&lt;/span&gt; &lt;span class="mi"&gt;40960&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The command currently doesn't support vmdk virtual disk. 
+So if you have a virtual disk called &lt;code&gt;xp.vmdk&lt;/code&gt;,
+you have to first convert it into a vdi disk using command&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;VBoxManage&lt;/span&gt; &lt;span class="n"&gt;clonehd&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt; &lt;span class="n"&gt;VDI&lt;/span&gt; &lt;span class="n"&gt;xp&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;vmdk&lt;/span&gt; &lt;span class="n"&gt;xp&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;vdi&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and then resize the vdi file using previous command.&lt;/p&gt;
+&lt;p&gt;Note that the above commands only resize the virtual disk,
+it doesn't resizes partitions inside the virtual disk.
+You must manually resize partiions. 
+This is easy to do for Windows 7/8 guest machines. 
+If have other type of guest machiens (e.g., XP),
+you can use partition tools (e.g., GParted) to manually resize partitions.
+Take GParted for example,
+you can download it, 
+mount it into a virtual CD/DVD, 
+boot your guest machine into GParted,
+and then use the graphical tool to resize partitions.
+It's very intuitive once you get there.&lt;/p&gt;</summary><category term="partition"></category><category term="gparted"></category><category term="virtualbox"></category><category term="software"></category><category term="vmdk"></category></entry><entry><title>Fix Microphone Problem of Skype in Debian</title><link href="http://y570.stat.iastate.edu:8000/blog/fix-skype-microphone-problem-in-debian/" rel="alternate"></link><updated>2013-08-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-08-21:blog/fix-skype-microphone-problem-in-debian/</id><summary type="html">&lt;p&gt;Install Pulseaudio if you only have ALSA. 
+ALSA alone does NOT work with skype whatever people 
+on the #Debian channel might think and tell you.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;apt&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pulseaudio&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Install pulseaudio volume control&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;apt&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pavucontrol&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Run Skype.&lt;/p&gt;
+&lt;p&gt;Go to the Sound devices sections. 
+Click on the Open PulseAudio Volume Control button. 
+pavucontrol will open.&lt;/p&gt;
+&lt;p&gt;In every tab maximize ALL the volume sliders.
+Go to the configuration tab. Mine has two sections. 
+One is called RV710/730. 
+Turn this off in the dropdown menu below it.
+The other one is called "Internal Audio". 
+Choose "Analog Stereo Duplex" in the dropdown menu.
+When you go back to the "Input Devices" tab now, 
+you will see that there is an setting for "Internal Audio Analog Stereo". 
+Crank this to 100%.
+In the "Output Devices" tab, 
+choose the "Analog Output" port from the dropdown menu. 
+Crank the front left as well as front right channel to the max 100%.&lt;/p&gt;</summary><category term="audio"></category><category term="Software"></category><category term="Linux"></category></entry><entry><title>Ways To Download Files Using Selenium Webdrive</title><link href="http://y570.stat.iastate.edu:8000/blog/ways-to-download-files-using-selenium-webdrive/" rel="alternate"></link><updated>2013-08-15T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-08-15:blog/ways-to-download-files-using-selenium-webdrive/</id><summary type="html">&lt;p&gt;Selenium WebDrive cannot have no control of system Dialog, 
+so you have to avoid the Dialog when downloading files using WebDrive.&lt;/p&gt;
+&lt;p&gt;The first way is to enable automatical download in the browser
+that you use with Seleniu WebDrive. 
+So when click a file link, 
+the file is automatically downloaded to the directory that you set.
+The second (and better way) is to export the cookie of the browser,
+extract the download link and then use the command &lt;code&gt;wget&lt;/code&gt; or &lt;code&gt;curl&lt;/code&gt; to download it. 
+Surely you have to use the cookie with &lt;code&gt;wget&lt;/code&gt; or &lt;code&gt;curl&lt;/code&gt; if authentication is required on the web.&lt;/p&gt;</summary><category term="Web"></category><category term="WebDrive"></category><category term="automation"></category><category term="Selenium"></category><category term="software"></category></entry><entry><title>Tips for Using Dropbox</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-for-using-dropbox/" rel="alternate"></link><updated>2013-04-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-04-08:blog/tips-for-using-dropbox/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You'd better not store symbolic links in the Dropbox folder,
+because the symbolic links will be replaced by the real files/folders when synchronized to other computers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It is not a good idea to put git repository in Dropbox,
+especially these repositories than generate lots of small files after compiling.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="synchronization"></category><category term="Dropbox"></category><category term="cloud"></category><category term="software"></category><category term="backup"></category></entry><entry><title>Make Your Life Easier with Portable Applications</title><link href="http://y570.stat.iastate.edu:8000/blog/portable-apps/" rel="alternate"></link><updated>2012-12-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-20:blog/portable-apps/</id><summary type="html">&lt;p&gt;Using portable applications is a good way to make your life easier. 
+They do not eat up your disk nor do they mess up the registry of your Windows OS.
+You can always copy these applications from one computer to another and use it out of box.
+Or you can install portable applications on a flash drive and use it on any Windows OS.
+There is an &lt;a href="http://www.portableapps.com/"&gt;English website&lt;/a&gt; for portable apps.
+It offers a portable applications plotform 
+which can automatically search for updates of portable apps, 
+download portable apps and install them. 
+There is also a &lt;a href="http://www.portableappc.com/"&gt;Chinese website&lt;/a&gt; 
+offering portable apps compatible with the portable apps platform. &lt;/p&gt;</summary><category term="application"></category><category term="Chinese"></category><category term="software"></category><category term="portable"></category></entry><entry><title>MATLAB IDE</title><link href="http://y570.stat.iastate.edu:8000/blog/matlab-ide/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/matlab-ide/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Command &lt;code&gt;help&lt;/code&gt; offers help on functions, classes, packages and so on, 
+but it support command style only, 
+i.e. it can only be used without parentheses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;Shift+F1&lt;/code&gt; hot key in command window opens the function browser in MATLAB. 
+The &lt;code&gt;F1&lt;/code&gt; hot key opens the help document for function
+where the cursor is. 
+The &lt;code&gt;Ctrl+SPACE&lt;/code&gt; hot key pop out parameter hint for the function where the cursor is.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;Ctrl+C&lt;/code&gt; hot key in command window halts the current execution if any. 
+This is helpful if you want to stop a time-consuming evaluation, 
+e.g. when you forget to put an semicolon 
+after an expression which produces a very large output. 
+Note that this can also be dangerous 
+if you do want to run a time-consuming program in MATLAB. 
+A safe way is to lock the computer 
+if you do not have to use it while the code is running, 
+or at least you should minimize the MATLAB command window 
+so that it will not be interrupted by your misoperation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="IDE"></category><category term="software"></category><category term="MATLAB"></category></entry><entry><title>Convert Latex To Word</title><link href="http://y570.stat.iastate.edu:8000/blog/convert-latex-to-word/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/convert-latex-to-word/</id><summary type="html">&lt;p&gt;&lt;code&gt;pandoc&lt;/code&gt; is a general purpose tool for converting between different type of documents, 
+however, 
+it is not good at converting Latex code to word.
+&lt;code&gt;tex4ht&lt;/code&gt; is a better tool for converting Latex code to word. 
+The following are instructions to use &lt;code&gt;tex4ht&lt;/code&gt; to convert Latex to word.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Compile your Latex code. 
+Make sure that there are no error messages. 
+Do not remove the temporary files produced when compiling your latex code, 
+as they are required by the &lt;code&gt;tex4ht&lt;/code&gt; command. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Convert your Latex code to html document using the following command.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;mk4ht&lt;/span&gt; &lt;span class="n"&gt;mzlatex&lt;/span&gt; &lt;span class="n"&gt;you_latex_doc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tex&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the html document using office tools (Microsoft Word, LibreOffice Writer, AbiWord, etc).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Save a copy of the html document to the right format you want. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="html"></category><category term="Latex"></category><category term="Office"></category><category term="software"></category><category term="Word"></category></entry><entry><title>Convert PDF To EPS</title><link href="http://y570.stat.iastate.edu:8000/blog/convert-pdf-to-eps/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/convert-pdf-to-eps/</id><summary type="html">&lt;p&gt;There are tons of tools for converting PDF pictures to EPS pictures in Linux. 
+The &lt;code&gt;pdf2ps&lt;/code&gt; command is a good one.
+It produces EPS pictures without losing much resolution. 
+The general purpose tools &lt;code&gt;convert&lt;/code&gt; does not produce as good quality EPS figures.&lt;/p&gt;</summary><category term="Image"></category><category term="eps"></category><category term="Linux"></category><category term="PDF"></category><category term="software"></category><category term="Graphics"></category></entry><entry><title>Scientific References</title><link href="http://y570.stat.iastate.edu:8000/blog/scientfic-reference/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/scientfic-reference/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JabRef&lt;/code&gt; is an open-source cross-plotform software for managing scientific references.
+&lt;code&gt;Mendeley&lt;/code&gt; is a good cost-free cross-platform software for managing scientific references.
+It introduces the concept of social research.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you use bibtex in your latex code, 
+you have to compile your code using &lt;code&gt;pdflatex/latex&lt;/code&gt;, &lt;code&gt;bibtex&lt;/code&gt;, &lt;code&gt;pdflatex/latex&lt;/code&gt; and &lt;code&gt;pdflatex/latex&lt;/code&gt; in sequence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;natbib&lt;/code&gt; is a Latex package for citing references, and it is compatible with bibtex.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you use author and date style references and there are duplicate
+authors and years, &lt;code&gt;natbib&lt;/code&gt; print out the whole list of names and years
+by default instead of using abbreviation for names. To avoid this
+problem, you can add letters to the end of years. (not sure about this ...)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;\eqref&lt;/code&gt; command is convenient way to reference equations in Latex.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="Latex"></category><category term="reference"></category><category term="research"></category><category term="Bibtex"></category><category term="software"></category></entry><entry><title>Use Eclipse As Your IDE</title><link href="http://y570.stat.iastate.edu:8000/blog/use-eclipse-as-your-ide/" rel="alternate"></link><updated>2012-10-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-22:blog/use-eclipse-as-your-ide/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;There are at least 3 ways to jump to errors quickly in Eclipse&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click these red icons on the right margin.&lt;/li&gt;
+&lt;li&gt;Click the &lt;code&gt;Previous Annotation&lt;/code&gt; button or &lt;code&gt;Next Annotation&lt;/code&gt; buttons on the tool bar or under the &lt;code&gt;Navigation&lt;/code&gt; menu.&lt;/li&gt;
+&lt;li&gt;Use hot keys (&lt;code&gt;Ctrl+.&lt;/code&gt; for &lt;code&gt;Next Annotation&lt;/code&gt; and &lt;code&gt;Ctrl+,&lt;/code&gt; for &lt;code&gt;Previous Annotation&lt;/code&gt; by default).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To tidy code, use the &lt;code&gt;Format&lt;/code&gt; button under the &lt;code&gt;Source&lt;/code&gt; menu.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To quickly comment selected code in Eclipse, 
+you can use hot keys &lt;code&gt;Crtl+/&lt;/code&gt;. 
+To uncomment selected code, 
+simply press the hot keys again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To quickly import a package which has no &lt;code&gt;.jar&lt;/code&gt; files 
+(i.e. you have available all source code) to an existing project, 
+you can simply drag the package on the &lt;code&gt;src&lt;/code&gt; folder 
+in the corresponding project in eclipse. 
+Another way is to first create a new package with the same
+name as the existing package, 
+then right click on the newly created
+package and choose &lt;code&gt;Import...&lt;/code&gt; in the short menu. 
+In the prompt out,
+you can choose either &lt;code&gt;Archive File&lt;/code&gt; or &lt;code&gt;File System&lt;/code&gt; under
+the &lt;code&gt;General&lt;/code&gt; tab depending on whether there are &lt;code&gt;.jar&lt;/code&gt; files in the package
+or not. 
+Then you can choose which files you want to import into
+the package and click finish after you have done.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To change a variable name, you'd better use refactor which will
+automatically change all occurrences.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;code&gt;TODO&lt;/code&gt; to add task in eclipse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To build projects manually, 
+follow instructions 
+&lt;a href="http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-75.htm"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="IDE"></category><category term="programming"></category><category term="Eclipse"></category><category term="software"></category></entry><entry><title>Useful Plugins For Eclipse</title><link href="http://y570.stat.iastate.edu:8000/blog/useful-plugins-for-eclipse/" rel="alternate"></link><updated>2012-09-29T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-29:blog/useful-plugins-for-eclipse/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/eclipse/cdt.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;h2&gt;Terminal Plug-in&lt;/h2&gt;
+&lt;p&gt;"Terminal Plug-in" is a fully-working command-line terminal for Eclipse.&lt;/p&gt;
+&lt;h2&gt;EasyShell&lt;/h2&gt;
+&lt;p&gt;"EasyShell" allows to open a shell window or file manager from the popup menu 
+in the navigation tree or editor view.&lt;/p&gt;
+&lt;h2&gt;Vrapper&lt;/h2&gt;
+&lt;p&gt;Vrapper provides Vim-like scheme for Eclispe.
+You can edit code similar as what you do in Vim 
+plus that you can use mouse to copy and paste code. 
+In my opinion, 
+it is better than either Eclipse or Vim alone. &lt;/p&gt;
+&lt;h2&gt;CodeInterview Plugin&lt;/h2&gt;
+&lt;p&gt;"CodeInterview Plugin" allows you to write code in Eclipse instead of on CodeInterview directly. 
+This is helpful if you will be interviewed for coding skills on CodeInterview.&lt;/p&gt;</summary><category term="Vim"></category><category term="Eclipse"></category><category term="shell"></category><category term="C/C++"></category><category term="IDE"></category><category term="software"></category></entry><entry><title>Make Eclipse Support C++11</title><link href="http://y570.stat.iastate.edu:8000/blog/eclipse-cpp11/" rel="alternate"></link><updated>2012-08-20T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-20:blog/eclipse-cpp11/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/eclipse/cdt.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Make a new C++ project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Default options for everything&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once created, right-click the project and go to "Properties"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C/C++ Build -&amp;gt; Settings -&amp;gt; Tool Settings -&amp;gt; GCC C++ Compiler -&amp;gt; Miscellaneous -&amp;gt; Other Flags. 
+Put -std=c++0x at the end. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C++ General -&amp;gt; Paths and Symbols -&amp;gt; Symbols -&amp;gt; GNU C++. 
+Click "Add..." and paste &lt;code&gt;__GXX_EXPERIMENTAL_CXX0X__&lt;/code&gt; (ensure to append and prepend two underscores) 
+into "Name" and leave "Value" blank.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hit Apply, do whatever it asks you to do, then hit OK.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="C/C++"></category><category term="software"></category><category term="eclipse"></category></entry><entry><title>Useful Git Commands</title><link href="http://y570.stat.iastate.edu:8000/blog/git-commands/" rel="alternate"></link><updated>2012-06-10T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-10:blog/git-commands/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Add a Remote Repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;remote&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="n"&gt;dclong&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Track all Files&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add all modifed tracked files for commit&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove a file but keep it in the local repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;rm&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;cached&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Show patches of a file&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;log&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other commands&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;stash&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;cherry&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pick&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Show diff of stage file&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;diff&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cache&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rename branch&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt; &lt;span class="n"&gt;gh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Show all branches&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete a branch&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tells git default branches to use when pushing&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;List all tracked files in a git repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;ls&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;tree&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;full&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;tree&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="n"&gt;HEAD&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="Git"></category><category term="repository"></category><category term="software"></category><category term="remote"></category></entry><entry><title>Software I use in Windows System</title><link href="http://y570.stat.iastate.edu:8000/blog/softwares-windows/" rel="alternate"></link><updated>2012-06-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-08:blog/softwares-windows/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/windows/windows.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;p&gt;I switched from Windows System to Linux System half a year ago. 
+The following is a summary of softwares I used in Windows system. 
+I keep the list here in case I have to switch back to Windows sometime.
+Surely a good way to avoid reintalling software is to portable applications. 
+There is a post on my blog discussing this top.&lt;/p&gt;
+&lt;h2&gt;Linux Tools&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Virtualbox/VMware&lt;/li&gt;
+&lt;li&gt;coLinux&lt;/li&gt;
+&lt;li&gt;andLinux&lt;/li&gt;
+&lt;li&gt;Cygwin&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GnuWin32&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UnxUtils&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MinGW/MSYS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;console2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Archive Tools&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;zip (come with with Windows)&lt;/li&gt;
+&lt;li&gt;7zip &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Communication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;QQ&lt;/li&gt;
+&lt;li&gt;Skype (for communication with my family)  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Network&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;IIS (for webhosting)&lt;/li&gt;
+&lt;li&gt;Cisco VPN Client (for connecting to work network)  &lt;/li&gt;
+&lt;li&gt;Chrome and Firefox (for surfing web)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;PDF&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Adobe Reader (for reading pdf documents)&lt;/li&gt;
+&lt;li&gt;Latex and Texstudio (for word processing)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Scientific Computing&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;R, Rtools and Rstudio (for statistical computing and graphics)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Anit-virus&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Microsoft Security Essentials&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Downloading Tools&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;QQ Xuanfeng&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="anti-virus"></category><category term="Windows"></category><category term="software"></category><category term="archive"></category><category term="Linux"></category><category term="virtualization"></category></entry><entry><title>Texstudio, Bravo!</title><link href="http://y570.stat.iastate.edu:8000/blog/texstudio-bravo/" rel="alternate"></link><updated>2012-06-02T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-02:blog/texstudio-bravo/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/bravo/bravo.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;p&gt;I have heard about this Latex IDE for a long time. I
+tried it today on a Debian virtual machine. It works like a charm. I like the preview
+function a lot. Using inline preview, you can see compiled result while you are
+typing. It works even with user-defined commands. 
+This is very helpful for people who has to use massive math expression in
+Latex, which make Texstudio comparable to the WYSIWYG Latex IDE "LyX". The
+advatantage of Texstudio over Lyx is obvious. You write pure Latex code. You
+do not have to remember many shortcuts and commands specific to LyX. Texstudio has
+tons of other features such as auto-complete, highlighting, structure view, reversing
+search and so on. It is also cross platform! Texstudio has the potential to be
+the terminator of debate on Latex IDEs. &lt;/p&gt;</summary><category term="LyX"></category><category term="Latex"></category><category term="IDE"></category><category term="software"></category><category term="WYSIWYG"></category><category term="Texstudio"></category></entry><entry><title>Tips For Excel</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-for-excel/" rel="alternate"></link><updated>2011-08-28T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2011-08-28:blog/tips-for-excel/</id><summary type="html">&lt;h2&gt;About Statistics Functions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Excel is not a reliable software for statistical analysis. 
+It's not even capable for simple operations such as calculating 
+mean and standard deviation when numbers are very big 
+(at least before version 2007, not sure about later versions). 
+If you do have to use Excel for statistical analysis, 
+you'd better verify the results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A bug in Excel 2007 (not sure about later versions) 
+is that the degrees of freedoms of the Chisquare distribution can only be positive integers. 
+If you pass a real number to related functions (density, cdf, etc), 
+the degrees of freedom will first be coerced to an integer 
+(I forget the exact behavior, but it's probably rounding down) and then do the calculation. 
+No warning is shown in this process. Fotunately, 
+the Gamma distribution behaves right in Excel. 
+Be aware of the relationship between Chisquare distribution and Gamma distribution, you can circumambulate this bug. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It seems that the F distribution in Excel can only have integer
+degrees of freedom. If not, the degrees of freedoms will changed to
+integers first. I don't know how to circumvent this problem easily.
+Sure we can write our own functions but it's not worth doing that.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="statistics"></category><category term="office"></category><category term="software"></category><category term="Excel"></category><category term="bug"></category></entry></feed>

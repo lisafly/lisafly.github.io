@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Some Useful Properties of Modified Bessel Functions of the First Kind</title>
+  <meta name="author" content="Lisha Li">
+
+  <link href="http://y570.stat.iastate.edu:8000/atom.xml" type="application/atom+xml" rel="alternate"
+        title="Lisha Li's Blog Atom Feed" />
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://y570.stat.iastate.edu:8000/favicon.png" rel="icon">
+  <link href="http://y570.stat.iastate.edu:8000/theme/css/main_2.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/modernizr-2.0.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/ender.js"></script>
+  <script src="http://y570.stat.iastate.edu:8000/theme/js/octopress.js" type="text/javascript"></script>
+
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+      
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type= "text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+           tex2jax: { 
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="http://y570.stat.iastate.edu:8000/">Lisha Li's Blog</a></h1>
+    <h2>It's never too late to learn.</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://y570.stat.iastate.edu:8000/atom.xml" rel="subscribe-rss">RSS</a></li>
+</ul>
+
+<form action="http://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:http://y570.stat.iastate.edu:8000" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+    <li><a href="http://y570.stat.iastate.edu:8000">Home</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000">Blog</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/archives.html">Archives</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/about.html">About</a></li>
+    <li><a href="http://y570.stat.iastate.edu:8000/pages/resume.html">Resume</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Some Useful Properties of Modified Bessel Functions of the First Kind</h1>
+      <p class="meta"><time datetime="2012-05-16T00:00:00" pubdate>May 16, 2012</time></p>
+</header>
+
+  <div class="entry-content"><p>I have to deal with Modified Bessel functions of the first kind frequently in my research. 
+Here I list some useful properties of them for future reference. 
+    $$I_0'(x) = I_1(x)$$
+    $$I_1'(x) = \frac{I_0(x)+I_2(x)}{2} $$
+    $$\frac{I_1(x)}{I_0(x)}\uparrow \Leftrightarrow I_0(x)(I_0(x)+I_2(x))-2I_1^2(x)&gt;0,\forall x&gt;0$$
+    $$\frac{I_1(x)-I_2(x)}{I_0(x)-I_1(x)}\uparrow$$
+where $I_n(x)$ is the modified Bessel function of order $n$.</p>
+<p>For more properties about modified Bessel functions of the first kind, 
+please refer to <a href="http://mathworld.wolfram.com/ModifiedBesselFunctionoftheFirstKind.html">Wolfram MathWorld</a>.</p></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">Chuanlong (Ben) Du</span>
+  </span>
+<time datetime="2012-05-16T00:00:00" pubdate>May 16, 2012</time>  <span class="categories">
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/derivative.html">derivative</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/monotone.html">monotone</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/research.html">Research</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/wolfram.html">Wolfram</a>
+    <a class="category" href="http://y570.stat.iastate.edu:8000/tag/positive.html">positive</a>
+  </span>
+</p>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/compress-and-decompress-in-linux/">Compress and Decompressing Archives in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/useful-tools-linux/">Useful Tools in Linux</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/macro-in-sas/">Macro in SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-sas/">General Tips for SAS</a>
+      </li>
+      <li class="post">
+          <a href="http://y570.stat.iastate.edu:8000/blog/sas-data-manipulation/">Manipulate Data in SAS</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problem.html">fun problem</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/fun-problems.html">Fun Problems</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/linux.html">Linux</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/programming.html">Programming</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/research.html">Research</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/software.html">Software</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/statistics.html">Statistics</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/windows.html">Windows</a></li>
+        <li><a href="http://y570.stat.iastate.edu:8000/category/work.html">Work</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+  <p class="tagcloud">
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/recursion.html">recursion</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/puzzle.html">puzzle</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/skills.html">skills</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sequence.html">sequence</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/os.html">OS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/list.html">list</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/formula.html">formula</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/stochastic.html">stochastic</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/network.html">network</a>
+          </span>
+          <span class="tag-2">
+              <a href="http://y570.stat.iastate.edu:8000/tag/r.html">R</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/windows.html">Windows</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/graphics.html">graphics</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/array.html">array</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/operator.html">operator</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rng.html">RNG</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/shell.html">shell</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vbvbnet.html">VB/VB.net</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/martingale.html">martingale</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ubuntu.html">Ubuntu</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/fun-problems.html">fun problems</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debian.html">Debian</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/configuration.html">configuration</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/c.html">C++</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/java.html">Java</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matrix.html">matrix</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/backup.html">backup</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bug.html">bug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/regex.html">regex</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/parallel.html">parallel</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/work.html">Work</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pdf.html">PDF</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vim.html">Vim</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/concurrency.html">concurrency</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/math.html">math</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/library.html">library</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/vector.html">vector</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/dropbox.html">Dropbox</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/function.html">function</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/terminal.html">terminal</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mathematica.html">Mathematica</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/software.html">software</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ide.html">IDE</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/require.html">require</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trap.html">trap</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/tips.html">tips</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/eclipse.html">Eclipse</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/debug.html">debug</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/number.html">number</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/coin.html">coin</a>
+          </span>
+          <span class="tag-1">
+              <a href="http://y570.stat.iastate.edu:8000/tag/programming.html">programming</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/server.html">server</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/office.html">office</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/data-frame.html">data frame</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/de.html">DE</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compiler.html">compiler</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/synchronization.html">synchronization</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/email.html">email</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/distribution.html">distribution</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mt.html">MT</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/d.html">D</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/package.html">package</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/compile.html">compile</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/latex.html">Latex</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/verizon.html">verizon</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/research.html">research</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/rcpp.html">Rcpp</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/trick.html">trick</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/permutation.html">permutation</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/loop.html">loop</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/python.html">Python</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/image.html">image</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/condition.html">condition</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/markov-chain.html">Markov chain</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/override.html">override</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/matlab.html">MATLAB</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/thread.html">thread</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/anti-virus.html">anti-virus</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/jekyll.html">Jekyll</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/chinese.html">Chinese</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ruby.html">Ruby</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/sas.html">SAS</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/bash.html">bash</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/hpc.html">HPC</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/web.html">Web</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/string.html">string</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/plot.html">plot</a>
+          </span>
+          <span class="tag-4">
+              <a href="http://y570.stat.iastate.edu:8000/tag/statistics.html">statistics</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/pattern.html">pattern</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/io.html">IO</a>
+          </span>
+          <span class="tag-3">
+              <a href="http://y570.stat.iastate.edu:8000/tag/linux.html">Linux</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/cc.html">C/C++</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/mutex.html">mutex</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/lock.html">lock</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/julia.html">Julia</a>
+          </span>
+          <span class="tag-7">
+              <a href="http://y570.stat.iastate.edu:8000/tag/phone.html">phone</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/character.html">character</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/ssh.html">SSH</a>
+          </span>
+          <span class="tag-8">
+              <a href="http://y570.stat.iastate.edu:8000/tag/portable.html">portable</a>
+          </span>
+          <span class="tag-6">
+              <a href="http://y570.stat.iastate.edu:8000/tag/remote.html">remote</a>
+          </span>
+          <span class="tag-5">
+              <a href="http://y570.stat.iastate.edu:8000/tag/probability.html">probability</a>
+          </span>
+  </p>
+  </section>
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+      <a href="https://github.com/dclong">@dclong</a> on GitHub
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = 'http://y570.stat.iastate.edu:8000/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'dclong',
+              count: 3,
+              skip_forks: true,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="http://y570.stat.iastate.edu:8000/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+    <section>
+        <h1>Social</h2>
+        <ul>
+            <li><a href="http://www.linkedin.com/pub/chuanlong-ben-du/21/9b2/123/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/longendu" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/chuanlong.du" target="_blank">Facebook</a></li>
+        <!--
+            <li><a href="http://y570.stat.iastate.edu:8000/" type="application/rss+xml" rel="alternate">RSS</a></li>
+            -->
+        </ul>
+    </section>
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Lisha Li -
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30259661-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+	<script type="text/javascript">
+	  var disqus_shortname = 'dclong';
+          var disqus_identifier = '/blog/bessel-first-property/';
+          var disqus_url = 'http://y570.stat.iastate.edu:8000/blog/bessel-first-property/';
+          var disqus_title = 'Some Useful Properties of Modified Bessel Functions of the First Kind';
+	  (function() {
+	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	   })();
+	</script>
+</body>
+</html>
