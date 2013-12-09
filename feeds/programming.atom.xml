@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lisha Li's Blog</title><link href="http://y570.stat.iastate.edu:8000/" rel="alternate"></link><link href="http://y570.stat.iastate.edu:8000/feeds/programming.atom.xml" rel="self"></link><id>http://y570.stat.iastate.edu:8000/</id><updated>2013-12-05T00:54:02-08:00</updated><entry><title>Macro in SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/macro-in-sas/" rel="alternate"></link><updated>2013-12-05T00:54:02-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/macro-in-sas/</id><summary type="html">&lt;p&gt;&lt;a href="https://bitbucket.org/dclong/sas_learn/src/8bc48195ca14ba370b395b775090027a75f5ddeb/macro?at=master"&gt;Here&lt;/a&gt; are some examples for SAS macro.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lisha Li's Blog</title><link href="http://lisafly.github.io/" rel="alternate"></link><link href="http://lisafly.github.io/feeds/programming.atom.xml" rel="self"></link><id>http://lisafly.github.io/</id><updated>2013-12-05T00:54:02-08:00</updated><entry><title>Macro in SAS</title><link href="http://lisafly.github.io/blog/macro-in-sas/" rel="alternate"></link><updated>2013-12-05T00:54:02-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/macro-in-sas/</id><summary type="html">&lt;p&gt;&lt;a href="https://bitbucket.org/dclong/sas_learn/src/8bc48195ca14ba370b395b775090027a75f5ddeb/macro?at=master"&gt;Here&lt;/a&gt; are some examples for SAS macro.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Macros are substituted with their definition before SAS code is run,
@@ -51,7 +51,7 @@ For example,&lt;/p&gt;
 
 &lt;p&gt;before running.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="dot"></category><category term="SAS"></category><category term="macro"></category><category term="branch"></category><category term="programming"></category></entry><entry><title>General Tips for SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-sas/" rel="alternate"></link><updated>2013-12-05T00:50:56-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/general-tips-for-sas/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="dot"></category><category term="SAS"></category><category term="macro"></category><category term="branch"></category><category term="programming"></category></entry><entry><title>General Tips for SAS</title><link href="http://lisafly.github.io/blog/general-tips-for-sas/" rel="alternate"></link><updated>2013-12-05T00:50:56-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/general-tips-for-sas/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;There are two kinds of modules in SAS.
 One is data step, 
@@ -118,7 +118,7 @@ while numerical values are 64 bits.
 Second, the IML procedure accepts matrices only, 
 so you cannot mix numeric and character values in the IML procedure.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="character"></category><category term="programming"></category><category term="goto"></category><category term="SAS"></category><category term="procedure"></category><category term="data step"></category></entry><entry><title>Manipulate Data in SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/sas-data-manipulation/" rel="alternate"></link><updated>2013-12-05T00:49:54-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/sas-data-manipulation/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="character"></category><category term="programming"></category><category term="goto"></category><category term="SAS"></category><category term="procedure"></category><category term="data step"></category></entry><entry><title>Manipulate Data in SAS</title><link href="http://lisafly.github.io/blog/sas-data-manipulation/" rel="alternate"></link><updated>2013-12-05T00:49:54-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/sas-data-manipulation/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Create a user library if you want your SAS data sets to persist.
@@ -322,7 +322,7 @@ to concatenate matrices vertically.&lt;/p&gt;
 &lt;p&gt;use multiple input in a data step allows to read a single record from multiple lines
 and double trailing allows you to read in data in flexible way&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="SAS"></category><category term="SQL"></category><category term="data"></category></entry><entry><title>R for Internet/Web Applications</title><link href="http://y570.stat.iastate.edu:8000/blog/r-for-internet-web-applications/" rel="alternate"></link><updated>2013-12-05T00:32:35-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/r-for-internet-web-applications/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="SAS"></category><category term="SQL"></category><category term="data"></category></entry><entry><title>R for Internet/Web Applications</title><link href="http://lisafly.github.io/blog/r-for-internet-web-applications/" rel="alternate"></link><updated>2013-12-05T00:32:35-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/r-for-internet-web-applications/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;h2&gt;Sending/Receiving Emails&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -362,7 +362,7 @@ which support Gmail, multiple recipients and multiple attachments.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;download.file&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="email"></category><category term="R"></category><category term="Web"></category><category term="programming"></category><category term="network"></category></entry><entry><title>Environments in R</title><link href="http://y570.stat.iastate.edu:8000/blog/environments-in-r/" rel="alternate"></link><updated>2013-12-05T00:31:05-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/environments-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="email"></category><category term="R"></category><category term="Web"></category><category term="programming"></category><category term="network"></category></entry><entry><title>Environments in R</title><link href="http://lisafly.github.io/blog/environments-in-r/" rel="alternate"></link><updated>2013-12-05T00:31:05-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/environments-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The option &lt;code&gt;pos=1&lt;/code&gt; of the function &lt;code&gt;assign&lt;/code&gt; refers to the global environment, 
 i.e., the user's workspace. 
@@ -384,7 +384,7 @@ you can use &lt;code&gt;source(path_to_file, local=new.env())&lt;/code&gt;.&lt;/
 &lt;p&gt;The function &lt;code&gt;emptyenv&lt;/code&gt; returns an immutable empty environment. 
 The empty environment is not used to evaluate expressions or run code but rather to check whether nested environments end.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category></entry><entry><title>General Tips for R</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-r/" rel="alternate"></link><updated>2013-12-05T00:29:52-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/general-tips-for-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category></entry><entry><title>General Tips for R</title><link href="http://lisafly.github.io/blog/general-tips-for-r/" rel="alternate"></link><updated>2013-12-05T00:29:52-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/general-tips-for-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Many R functions have lots of arguments which allows you get a full
 control of their behaviors, so before you ask whether there is any R
@@ -398,7 +398,7 @@ which means that they can be
 applied to different types of objects, and the behavior varies
 according to the type of objects.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="R"></category><category term="generic"></category><category term="programming"></category><category term="argument"></category></entry><entry><title>Graphics in R</title><link href="http://y570.stat.iastate.edu:8000/blog/graphics-in-r/" rel="alternate"></link><updated>2013-12-05T00:28:59-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/graphics-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="R"></category><category term="generic"></category><category term="programming"></category><category term="argument"></category></entry><entry><title>Graphics in R</title><link href="http://lisafly.github.io/blog/graphics-in-r/" rel="alternate"></link><updated>2013-12-05T00:28:59-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/graphics-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;gets the dimension (i.e. width and height) of the graphics device.
 If no graphics device has been open, it opens a new one.&lt;/p&gt;
@@ -531,7 +531,7 @@ expression in R for all kinds of math expressions.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dev.copy2pdf&lt;/code&gt; copies the graphics content on the current graphics
 device to a pdf file.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="par"></category><category term="R"></category><category term="plot"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Skills for R</title><link href="http://y570.stat.iastate.edu:8000/blog/skills-for-r/" rel="alternate"></link><updated>2013-12-05T00:28:24-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/skills-for-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="par"></category><category term="R"></category><category term="plot"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Skills for R</title><link href="http://lisafly.github.io/blog/skills-for-r/" rel="alternate"></link><updated>2013-12-05T00:28:24-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/skills-for-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Unlike C/C++, Java and SAS, you do not have semicolon to indicate the
 end of a command, but you can do this if you like. It is helpful if
@@ -642,7 +642,7 @@ especially when the names of variables do not give you much
 information about parameters used in computation (typical they do not
 because otherwise they will be long).&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="skills"></category><category term="programming"></category></entry><entry><title>String and Characters in R</title><link href="http://y570.stat.iastate.edu:8000/blog/string-and-characters-in-r/" rel="alternate"></link><updated>2013-12-05T00:27:18-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/string-and-characters-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="skills"></category><category term="programming"></category></entry><entry><title>String and Characters in R</title><link href="http://lisafly.github.io/blog/string-and-characters-in-r/" rel="alternate"></link><updated>2013-12-05T00:27:18-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/string-and-characters-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;By default, 
 characters read into R by &lt;code&gt;read.table&lt;/code&gt; (and alike functions) is converted to factors. 
@@ -728,11 +728,11 @@ you can use &lt;code&gt;dclong.String::strReplace&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;strsplit&lt;/code&gt; splits a string according to specified delimiters.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category><category term="character"></category><category term="string"></category></entry><entry><title>Time and Date in R</title><link href="http://y570.stat.iastate.edu:8000/blog/time-and-date-in-r/" rel="alternate"></link><updated>2013-12-05T00:26:18-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/time-and-date-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category><category term="character"></category><category term="string"></category></entry><entry><title>Time and Date in R</title><link href="http://lisafly.github.io/blog/time-and-date-in-r/" rel="alternate"></link><updated>2013-12-05T00:26:18-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/time-and-date-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;The function &lt;code&gt;as.Date&lt;/code&gt; and &lt;code&gt;strptime&lt;/code&gt; convert string to dates. 
 For these functions to work right, 
 you must use the right format.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="date"></category><category term="time"></category><category term="programming"></category></entry><entry><title>Tips for Programming in R</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-for-programming-in-r/" rel="alternate"></link><updated>2013-12-05T00:25:50-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/tips-for-programming-in-r/</id><summary type="html">&lt;h2&gt;Debugging&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="date"></category><category term="time"></category><category term="programming"></category></entry><entry><title>Tips for Programming in R</title><link href="http://lisafly.github.io/blog/tips-for-programming-in-r/" rel="alternate"></link><updated>2013-12-05T00:25:50-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/tips-for-programming-in-r/</id><summary type="html">&lt;h2&gt;Debugging&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;You can the debug a function using the function &lt;code&gt;debug&lt;/code&gt;. 
@@ -786,7 +786,7 @@ elements. You can use &lt;code&gt;str&lt;/code&gt; to see the structure of both 
 types of objects. And which symbol to use will be indicated in the
 output.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="debug"></category><category term="programming"></category></entry><entry><title>Traps in R</title><link href="http://y570.stat.iastate.edu:8000/blog/traps-in-r/" rel="alternate"></link><updated>2013-12-05T00:25:17-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/traps-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="debug"></category><category term="programming"></category></entry><entry><title>Traps in R</title><link href="http://lisafly.github.io/blog/traps-in-r/" rel="alternate"></link><updated>2013-12-05T00:25:17-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/traps-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;A really tricky problem about is global and local variables. You can
 use any global variable in a user-defined function, which is true at
@@ -955,7 +955,7 @@ want to compare whether a double value belongs to a range (a point
 is a closed interval with equal limts), you can change the limits
 (depends on what your want to do) of the range slightly to avoid
 storing errors.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="global variable"></category><category term="programming"></category><category term="traps"></category></entry><entry><title>Convert Math Formula and Table To Latex</title><link href="http://y570.stat.iastate.edu:8000/blog/convert-math-formula-and-table-to-latex/" rel="alternate"></link><updated>2013-12-05T00:23:40-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/convert-math-formula-and-table-to-latex/</id><summary type="html">&lt;h2&gt;R&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="global variable"></category><category term="programming"></category><category term="traps"></category></entry><entry><title>Convert Math Formula and Table To Latex</title><link href="http://lisafly.github.io/blog/convert-math-formula-and-table-to-latex/" rel="alternate"></link><updated>2013-12-05T00:23:40-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/convert-math-formula-and-table-to-latex/</id><summary type="html">&lt;h2&gt;R&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;xtable{xtable}&lt;/p&gt;
@@ -986,7 +986,7 @@ storing errors.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;You can also convert formulas to other format in Mathematica.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Mathematica"></category><category term="table"></category><category term="programming"></category><category term="Excel"></category><category term="Latex"></category><category term="formula"></category><category term="R"></category><category term="MATLAB"></category></entry><entry><title>Distributions in R</title><link href="http://y570.stat.iastate.edu:8000/blog/distributions-in-r/" rel="alternate"></link><updated>2013-12-05T00:22:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/distributions-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="Mathematica"></category><category term="table"></category><category term="programming"></category><category term="Excel"></category><category term="Latex"></category><category term="formula"></category><category term="R"></category><category term="MATLAB"></category></entry><entry><title>Distributions in R</title><link href="http://lisafly.github.io/blog/distributions-in-r/" rel="alternate"></link><updated>2013-12-05T00:22:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/distributions-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The definition of geometric distribution in R is not the same as the common definition. 
 A random variable of geometric distribution in R starts from zero, 
@@ -1000,7 +1000,7 @@ where &lt;code&gt;p&lt;/code&gt; is the success probability in each trial.&lt;/p
 &lt;li&gt;
 &lt;p&gt;The definition of hyper-geometric is the same as common but be careful with the parameters!&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="distribution"></category><category term="R"></category><category term="programming"></category><category term="statistics"></category></entry><entry><title>Random Number Generating in R</title><link href="http://y570.stat.iastate.edu:8000/blog/rng-in-r/" rel="alternate"></link><updated>2013-12-05T00:21:35-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/rng-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="distribution"></category><category term="R"></category><category term="programming"></category><category term="statistics"></category></entry><entry><title>Random Number Generating in R</title><link href="http://lisafly.github.io/blog/rng-in-r/" rel="alternate"></link><updated>2013-12-05T00:21:35-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/rng-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Functions for sampling random numbers from distributions 
 share a same "basic" random number generator (RNG). 
@@ -1020,7 +1020,7 @@ from disjoint parts of a same seed
 (or even not a same kind of random number generator). 
 Parallel computing is an alternative to this approach.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category><category term="RNG"></category></entry><entry><title>Alike Objects/Functions in R</title><link href="http://y570.stat.iastate.edu:8000/blog/alike-objects-in-r/" rel="alternate"></link><updated>2013-12-05T00:19:25-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/alike-objects-in-r/</id><summary type="html">&lt;h2&gt;Matrix VS Data Frame:&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="programming"></category><category term="RNG"></category></entry><entry><title>Alike Objects/Functions in R</title><link href="http://lisafly.github.io/blog/alike-objects-in-r/" rel="alternate"></link><updated>2013-12-05T00:19:25-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/alike-objects-in-r/</id><summary type="html">&lt;h2&gt;Matrix VS Data Frame:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The data in a matrix must be of the same type while different columns 
@@ -1050,7 +1050,7 @@ while function &lt;code&gt;gsub&lt;/code&gt; substitute all occurences of string
 &lt;ol&gt;
 &lt;li&gt;The function &lt;code&gt;warning&lt;/code&gt; shows a user-defined warning message 
 while the function &lt;code&gt;warnings&lt;/code&gt; displays previously generated warning messages.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="regex"></category><category term="data frame"></category><category term="matrix"></category><category term="R"></category><category term="warning"></category></entry><entry><title>Filesystem in R</title><link href="http://y570.stat.iastate.edu:8000/blog/filesystem-in-r/" rel="alternate"></link><updated>2013-12-05T00:17:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/filesystem-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="regex"></category><category term="data frame"></category><category term="matrix"></category><category term="R"></category><category term="warning"></category></entry><entry><title>Filesystem in R</title><link href="http://lisafly.github.io/blog/filesystem-in-r/" rel="alternate"></link><updated>2013-12-05T00:17:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/filesystem-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;dirname&lt;/code&gt; returns the parent folder of a file or directory, and
 &lt;code&gt;basename&lt;/code&gt; return the name (without the parent folder) of the file
@@ -1122,7 +1122,7 @@ is platform dependent),&lt;/p&gt;
 
 
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="filesystem"></category><category term="programming"></category></entry><entry><title>Functions and Calls in R</title><link href="http://y570.stat.iastate.edu:8000/blog/functions-and-calls-in-r/" rel="alternate"></link><updated>2013-12-05T00:15:37-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-12-05:blog/functions-and-calls-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="filesystem"></category><category term="programming"></category></entry><entry><title>Functions and Calls in R</title><link href="http://lisafly.github.io/blog/functions-and-calls-in-r/" rel="alternate"></link><updated>2013-12-05T00:15:37-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-12-05:blog/functions-and-calls-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;You can assign value to an R object by its name (in string) using the function &lt;code&gt;assign&lt;/code&gt;. &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;assign&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -1432,7 +1432,7 @@ the loop. It is the same in Matlab, but different in Java[^18].)&lt;/p&gt;
 time a top-level task is completed. and removeTaskCallback and
 taskCallbackManager, these are very useful functions.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="function"></category><category term="programming"></category><category term="call"></category></entry><entry><title>Good C++ Libraries</title><link href="http://y570.stat.iastate.edu:8000/blog/good-cpp-libraries/" rel="alternate"></link><updated>2013-11-08T20:33:02-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-08:blog/good-cpp-libraries/</id><summary type="html">&lt;h2&gt;Good C++ Libraries&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="function"></category><category term="programming"></category><category term="call"></category></entry><entry><title>Good C++ Libraries</title><link href="http://lisafly.github.io/blog/good-cpp-libraries/" rel="alternate"></link><updated>2013-11-08T20:33:02-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-11-08:blog/good-cpp-libraries/</id><summary type="html">&lt;h2&gt;Good C++ Libraries&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;boost: an advanced general purpose C++ library &lt;/li&gt;
 &lt;li&gt;dlib: a general purpose cross-platform C++ library designed using contract programming and modern C++ techniques.&lt;/li&gt;
@@ -1500,7 +1500,7 @@ GSL is more convenient to use than the Boost library.
 You can define macros to match the GSL version of distribution functions with 
 R version of distribution functions.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="library"></category><category term="programming"></category><category term="gsl"></category><category term="package"></category><category term="GMP"></category><category term="boost"></category><category term="it++"></category><category term="C++"></category><category term="armadillo"></category><category term="NTL"></category></entry><entry><title>General Tips For C++</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-cpp/" rel="alternate"></link><updated>2013-11-08T16:08:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-08:blog/general-tips-for-cpp/</id><summary type="html">&lt;h2&gt;IDE&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="library"></category><category term="programming"></category><category term="gsl"></category><category term="package"></category><category term="GMP"></category><category term="boost"></category><category term="it++"></category><category term="C++"></category><category term="armadillo"></category><category term="NTL"></category></entry><entry><title>General Tips For C++</title><link href="http://lisafly.github.io/blog/general-tips-for-cpp/" rel="alternate"></link><updated>2013-11-08T16:08:23-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-11-08:blog/general-tips-for-cpp/</id><summary type="html">&lt;h2&gt;IDE&lt;/h2&gt;
 &lt;p&gt;Eclispe CDT is a good IDE for C/C++ development in Unix/Linux sytem. 
 Configuration of Eclipse CDT in Windows system is not pleasant. 
 Netbeans and code::blocks are good alternatives in Windows system.&lt;/p&gt;
@@ -1618,7 +1618,7 @@ For example, if we have definition &lt;/p&gt;
 As a matter of fact, &lt;code&gt;int **&lt;/code&gt; is an array of pointers to integers. 
 If you pass you a 2-dimensional integer array to a function which requires an
 &lt;code&gt;int **&lt;/code&gt; parameter, 
-the compiler will complain.&lt;/p&gt;</summary><category term="tips"></category><category term="programming"></category></entry><entry><title>Tips for C++ Compilers</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-gcc-compiler/" rel="alternate"></link><updated>2013-11-08T12:20:14-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-08:blog/tips-gcc-compiler/</id><summary type="html">&lt;h2&gt;GCC&lt;/h2&gt;
+the compiler will complain.&lt;/p&gt;</summary><category term="tips"></category><category term="programming"></category></entry><entry><title>Tips for C++ Compilers</title><link href="http://lisafly.github.io/blog/tips-gcc-compiler/" rel="alternate"></link><updated>2013-11-08T12:20:14-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-11-08:blog/tips-gcc-compiler/</id><summary type="html">&lt;h2&gt;GCC&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;User option &lt;code&gt;-lpthread&lt;/code&gt; to link the thread library when your code use the thread library. 
@@ -1660,7 +1660,7 @@ However, this is not always safe. &lt;/p&gt;
 &lt;h2&gt;Clang&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;use libc++ instead libstdc++&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="GCC"></category><category term="thread"></category><category term="compiler"></category><category term="link"></category></entry><entry><title>String In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/string-in-java/" rel="alternate"></link><updated>2013-11-07T19:43:17-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2013-11-07:blog/string-in-java/</id><summary type="html">&lt;h2&gt;String&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="GCC"></category><category term="thread"></category><category term="compiler"></category><category term="link"></category></entry><entry><title>String In Java</title><link href="http://lisafly.github.io/blog/string-in-java/" rel="alternate"></link><updated>2013-11-07T19:43:17-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2013-11-07:blog/string-in-java/</id><summary type="html">&lt;h2&gt;String&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;String is a special class (immutable) in Java. Extensive operations
@@ -1684,7 +1684,7 @@ To sort characters in a string,
 you can first convert the string into a char array,
 sort the char array and convert back.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Java"></category><category term="programming"></category><category term="string"></category></entry><entry><title>Compile MATLAB Code</title><link href="http://y570.stat.iastate.edu:8000/blog/compile-matlab-code/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/compile-matlab-code/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="Java"></category><category term="programming"></category><category term="string"></category></entry><entry><title>Compile MATLAB Code</title><link href="http://lisafly.github.io/blog/compile-matlab-code/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/compile-matlab-code/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;MATLAB code can be compile to C/C++ code or stand alone applications. 
 Usually you can run the stand-alone application in Windows system directly, 
@@ -1723,7 +1723,7 @@ If you have access to a MDCS,
 there is little necessary for you to compile your MATLAB parallel code to a stand-alone application, 
 so just do not bother to compile your MATLAB parallel code.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="compile"></category><category term="compiler"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Filesystem in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/filesystem-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/filesystem-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="compile"></category><category term="compiler"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Filesystem in MATLAB</title><link href="http://lisafly.github.io/blog/filesystem-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/filesystem-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Function &lt;code&gt;path&lt;/code&gt; can be used to either display or modify the search path of MATLAB. 
 Its functionality in MATLAB is similar to the functionality of environment variable &lt;code&gt;PATH&lt;/code&gt; 
@@ -1811,7 +1811,7 @@ you can use &lt;code&gt;delete&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;fileattrib&lt;/code&gt; can get and set attributes of files and folders in MATLAB.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="filesystem"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>General Tips For Matlab</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/general-tips-for-matlab/</id><summary type="html">&lt;h2&gt;Skills&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="filesystem"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>General Tips For Matlab</title><link href="http://lisafly.github.io/blog/general-tips-for-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/general-tips-for-matlab/</id><summary type="html">&lt;h2&gt;Skills&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Matlab support profiling running time of code, 
@@ -1959,7 +1959,7 @@ is achieved through function handle in MATLAB.
 To get the function handle of an existing function (not a function handle), 
 you can simply add a prefix &lt;code&gt;@&lt;/code&gt; to it.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="skills"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Use MATLAB to Do Visualization</title><link href="http://y570.stat.iastate.edu:8000/blog/graphics-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/graphics-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="skills"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Use MATLAB to Do Visualization</title><link href="http://lisafly.github.io/blog/graphics-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/graphics-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;To display a new graph on on top of an old one, 
 you can use command &lt;code&gt;hold on&lt;/code&gt;. 
@@ -2011,7 +2011,7 @@ and then apply &lt;code&gt;set&lt;/code&gt; on it.&lt;/p&gt;
 For example, to show the mosaic plot of matrix &lt;code&gt;x&lt;/code&gt;, 
 you can use &lt;code&gt;image(x,'CDataMap','CDataMapping','scaled')&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="image"></category><category term="visualization"></category><category term="programming"></category><category term="plot"></category><category term="graphics"></category><category term="MATLAB"></category></entry><entry><title>Linear Algebra in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/linear-algebra-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/linear-algebra-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="image"></category><category term="visualization"></category><category term="programming"></category><category term="plot"></category><category term="graphics"></category><category term="MATLAB"></category></entry><entry><title>Linear Algebra in MATLAB</title><link href="http://lisafly.github.io/blog/linear-algebra-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/linear-algebra-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Unlike most other programming languages, 
 to get elements of an array in MATLAB, 
@@ -2114,7 +2114,7 @@ eigenvalues. Usually only a few of them are interesting. To
 calculate the $k)' large eigenvalue of a sparse matrix &lt;code&gt;spm&lt;/code&gt;, you
 can use &lt;code&gt;eigs(spm,k)&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="algebra"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>How MATLAB is Different from Other Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/matlab-different/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/matlab-different/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="algebra"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>How MATLAB is Different from Other Programming Languages</title><link href="http://lisafly.github.io/blog/matlab-different/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/matlab-different/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;MATLAB support command style (like Linux terminal commands).
 This means that you do not have to use parentheses when you call some
@@ -2191,7 +2191,7 @@ preserved on UNIX platforms but not on Windows platforms.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Loops in MATLAB is faster than loops in R.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="Java"></category><category term="SAS"></category><category term="R"></category><category term="MATLAB"></category></entry><entry><title>Numerical Analysis in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/numerical-analysis-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/numerical-analysis-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="Java"></category><category term="SAS"></category><category term="R"></category><category term="MATLAB"></category></entry><entry><title>Numerical Analysis in MATLAB</title><link href="http://lisafly.github.io/blog/numerical-analysis-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/numerical-analysis-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;fmincon&lt;/code&gt; finds minimum of constrained nonlinear multivariate function.
 &lt;code&gt;fminunc&lt;/code&gt; finds minimum of unconstrained nonlinear multivariate function.
@@ -2218,7 +2218,7 @@ and then optimize function handle &lt;code&gt;f&lt;/code&gt;.&lt;/p&gt;
 To calculate integrals symbolically, 
 you can use &lt;code&gt;int&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Parallel Computing in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/parallel-computing-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/parallel-computing-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Parallel Computing in MATLAB</title><link href="http://lisafly.github.io/blog/parallel-computing-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/parallel-computing-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;It is very easy to do parallel computing in MATLAB. 
 Usually what you have to do is to change &lt;code&gt;for&lt;/code&gt; to &lt;code&gt;parfor&lt;/code&gt; 
@@ -2268,8 +2268,8 @@ you can use the following strategies.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Error when Launching MATLAB in Linux</title><link href="http://y570.stat.iastate.edu:8000/blog/problem-when-launching-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/problem-when-launching-matlab/</id><summary type="html">&lt;p&gt;See &lt;a href="http://www.mathworks.com/support/solutions/en/data/1-F68FSA/index.html?solution=1-F68FSA"&gt;here&lt;/a&gt;
-for more information.&lt;/p&gt;</summary><category term="Linux"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Sending Email in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/send-email-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/send-email-in-matlab/</id><summary type="html">&lt;p&gt;It is very easy to send emails in Matlab. 
+&lt;/ol&gt;</summary><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Error when Launching MATLAB in Linux</title><link href="http://lisafly.github.io/blog/problem-when-launching-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/problem-when-launching-matlab/</id><summary type="html">&lt;p&gt;See &lt;a href="http://www.mathworks.com/support/solutions/en/data/1-F68FSA/index.html?solution=1-F68FSA"&gt;here&lt;/a&gt;
+for more information.&lt;/p&gt;</summary><category term="Linux"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Sending Email in MATLAB</title><link href="http://lisafly.github.io/blog/send-email-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/send-email-in-matlab/</id><summary type="html">&lt;p&gt;It is very easy to send emails in Matlab. 
 To do this, you can just call &lt;code&gt;sendmail&lt;/code&gt;. 
 However, 
 usually you need to set preference for sending emails using &lt;code&gt;setpref&lt;/code&gt; first. 
@@ -2291,7 +2291,7 @@ Here is one example:&lt;/p&gt;
 &lt;span class="c"&gt;%%&lt;/span&gt;
 &lt;span class="c"&gt;% Send email. The first argument is recipient.&lt;/span&gt;
 &lt;span class="n"&gt;sendmail&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;receiver@gmail.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;Test from MATLAB&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;Hello! This is a test from MATLAB!&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="MATLAB"></category><category term="programming"></category><category term="email"></category></entry><entry><title>Special Functions in MATLAB</title><link href="http://y570.stat.iastate.edu:8000/blog/special-functions-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/special-functions-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="MATLAB"></category><category term="programming"></category><category term="email"></category></entry><entry><title>Special Functions in MATLAB</title><link href="http://lisafly.github.io/blog/special-functions-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/special-functions-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;sin&lt;/code&gt; calculates sine of arguments in radian 
 while &lt;code&gt;sind&lt;/code&gt; calculates sine of arguments in degrees; 
@@ -2327,7 +2327,7 @@ directly in matlab, especially when a function is near its root and
 its arguments are relatively large. Also &lt;code&gt;mfunlist&lt;/code&gt; can list special
 functions for use with &lt;code&gt;mfun&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="function"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Matlab for Statisticians</title><link href="http://y570.stat.iastate.edu:8000/blog/statistics-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/statistics-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="function"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Matlab for Statisticians</title><link href="http://lisafly.github.io/blog/statistics-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/statistics-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;There are generally two ways to generate uniform and normal random numbers in matlab. 
 One ways is to use [functions] &lt;code&gt;randu&lt;/code&gt; (for standard normal distribution) 
@@ -2372,7 +2372,7 @@ you will get the same results.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;iqr&lt;/code&gt; calculates the interquartile range of given data.
 There is a similar function called &lt;code&gt;IQR&lt;/code&gt; in R.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="statistics"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>String In Matlab</title><link href="http://y570.stat.iastate.edu:8000/blog/string-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/string-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="statistics"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>String In Matlab</title><link href="http://lisafly.github.io/blog/string-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/string-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;To display special characters (e.g. &lt;code&gt;\n&lt;/code&gt;, &lt;code&gt;\t&lt;/code&gt; and so on),
 you have to use &lt;code&gt;sprintf&lt;/code&gt; to format it first. 
@@ -2383,7 +2383,7 @@ you have to use &lt;code&gt;sprintf&lt;/code&gt; to format it first.
 numbers in matlab will not be silently converted to strings when needed.
 You must use the function &lt;code&gt;num2str&lt;/code&gt; to convert numbers to strings manually.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="string"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Tricky Problems In Matlab</title><link href="http://y570.stat.iastate.edu:8000/blog/tricky-problems-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-04:blog/tricky-problems-in-matlab/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="string"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Tricky Problems In Matlab</title><link href="http://lisafly.github.io/blog/tricky-problems-in-matlab/" rel="alternate"></link><updated>2012-12-04T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-04:blog/tricky-problems-in-matlab/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Sometimes you might find that you can use some built-in function in
 matlab at first, but later you cannot use it any. If so, you should
@@ -2423,7 +2423,7 @@ operation rather than matrix operations, you have to put
 an extra dot (i.e. &lt;code&gt;.&lt;/code&gt;) before the corresponding matrix
 operators.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="trick"></category><category term="trap"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>General Tips For Java</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/general-tips-for-java/</id><summary type="html">&lt;h2&gt;Useful Skills&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="trick"></category><category term="trap"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>General Tips For Java</title><link href="http://lisafly.github.io/blog/general-tips-for-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/general-tips-for-java/</id><summary type="html">&lt;h2&gt;Useful Skills&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Even if a method returns a value, you can use it as if it were a
@@ -2573,7 +2573,7 @@ For example if you want to do double precision calculation for
 &lt;code&gt;3/6&lt;/code&gt;, you can write it as &lt;code&gt;3/6d&lt;/code&gt; instead of casting integer to
 double using &lt;code&gt;(double)&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>High Performance Computing In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/high-performance-computing-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/high-performance-computing-in-java/</id><summary type="html">&lt;h2&gt;Efficient Computing&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>High Performance Computing In Java</title><link href="http://lisafly.github.io/blog/high-performance-computing-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/high-performance-computing-in-java/</id><summary type="html">&lt;h2&gt;Efficient Computing&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Avoid resizing arrays and ArrayLists if the alternative does not cost
@@ -2633,7 +2633,7 @@ the code easy and run faster.&lt;/p&gt;
 &lt;p&gt;You should use thread pool to avoid the cost of creating new thread
 if there are many different parts in parallel computing.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="thread"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category></entry><entry><title>IO In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/io-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/io-in-java/</id><summary type="html">&lt;h2&gt;Input and Output&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="thread"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category></entry><entry><title>IO In Java</title><link href="http://lisafly.github.io/blog/io-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/io-in-java/</id><summary type="html">&lt;h2&gt;Input and Output&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;System.out.println&lt;/code&gt; is super fast. Generally speaking, you do not
 have worry much about the overheading of printing information to the
@@ -2662,7 +2662,7 @@ not compatible with &lt;code&gt;writeBin&lt;/code&gt; in R; neither is DataOutpu
 compatible with &lt;code&gt;readBin&lt;/code&gt; in R. To communicate binary data
 between Java and R, you can run Java code which do the right job
 for you using &lt;code&gt;rJava&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="IO"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Java Packages</title><link href="http://y570.stat.iastate.edu:8000/blog/java-packages/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/java-packages/</id><summary type="html">&lt;h2&gt;Appach CommonMath&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="IO"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Java Packages</title><link href="http://lisafly.github.io/blog/java-packages/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/java-packages/</id><summary type="html">&lt;h2&gt;Appach CommonMath&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;StatUtils.varance is OK.&lt;/li&gt;
 &lt;/ol&gt;
@@ -2684,7 +2684,7 @@ but Colt is no longer maintained.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;The RNGs in Colt, Parallel Colt and CommonMath are all OK from statistical view.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="package"></category><category term="Java"></category></entry><entry><title>Java Programming Style</title><link href="http://y570.stat.iastate.edu:8000/blog/java-programming-style/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/java-programming-style/</id><summary type="html">&lt;h2&gt;Good Writing Style&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="package"></category><category term="Java"></category></entry><entry><title>Java Programming Style</title><link href="http://lisafly.github.io/blog/java-programming-style/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/java-programming-style/</id><summary type="html">&lt;h2&gt;Good Writing Style&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;It is recommend to always use &lt;code&gt;{}&lt;/code&gt; if even there is only one statement inside it. 
@@ -2705,7 +2705,7 @@ do not change the code for conciseness.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Avoid using a same name for a different types (instance, local and argument) of variables.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="style"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Loops In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/loops-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/loops-in-java/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="style"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Loops In Java</title><link href="http://lisafly.github.io/blog/loops-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/loops-in-java/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;As is known to all, a loop condition in a usual &lt;code&gt;for&lt;/code&gt; or
 &lt;code&gt;while&lt;/code&gt; loop is checked before each iteration in almost all
@@ -2732,7 +2732,7 @@ list or array as you traverse it.&lt;/p&gt;
 little (not significant at all) faster than a big loop with the same
 number of iterations.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="loop"></category><category term="Java"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Some Tricky Problems In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/some-tricky-problems-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-12-03:blog/some-tricky-problems-in-java/</id><summary type="html">&lt;h2&gt;Confusion Clarification&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="loop"></category><category term="Java"></category><category term="programming"></category><category term="MATLAB"></category></entry><entry><title>Some Tricky Problems In Java</title><link href="http://lisafly.github.io/blog/some-tricky-problems-in-java/" rel="alternate"></link><updated>2012-12-03T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-12-03:blog/some-tricky-problems-in-java/</id><summary type="html">&lt;h2&gt;Confusion Clarification&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;You cannot define an abstract static method. This is because
@@ -2917,9 +2917,9 @@ methods to mutate the object, it can happen that you think you have
 changed the states of the object to these you expect, but rather
 they are not.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="trick"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Enumeration In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/enumeration-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/enumeration-in-java/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="trick"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Enumeration In Java</title><link href="http://lisafly.github.io/blog/enumeration-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/enumeration-in-java/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;You can associate values with enumeration elements.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="enum"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Exceptions In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/exceptions-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/exceptions-in-java/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="enum"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Exceptions In Java</title><link href="http://lisafly.github.io/blog/exceptions-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/exceptions-in-java/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;You can suppress warnings of unchecked exceptions by using &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;SuppressWarnings&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;unchecked&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -2943,7 +2943,7 @@ Starting from Java 7,
 filesystem resources are managed automatically 
 so that you do not have to release them manually in a &lt;code&gt;finally&lt;/code&gt; block.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="exception"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Extensions For Java</title><link href="http://y570.stat.iastate.edu:8000/blog/extensions-for-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/extensions-for-java/</id><summary type="html">&lt;p&gt;&lt;a href="https://bitbucket.org/dclong/java_learn/src/1d6428249cae93dc7ad6ca61fa93479dcc7390fc/src/study/access?at=master"&gt;Here&lt;/a&gt; are some code examples for the following topics.&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="exception"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Extensions For Java</title><link href="http://lisafly.github.io/blog/extensions-for-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/extensions-for-java/</id><summary type="html">&lt;p&gt;&lt;a href="https://bitbucket.org/dclong/java_learn/src/1d6428249cae93dc7ad6ca61fa93479dcc7390fc/src/study/access?at=master"&gt;Here&lt;/a&gt; are some code examples for the following topics.&lt;/p&gt;
 &lt;h2&gt;Java Native Interface&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;You can call native code (typically C, C++ or Fortran) in Java using the Java Native Interface (JNI). 
@@ -2959,7 +2959,7 @@ For more information, please refer to Calling C library Routines from Java.&lt;/
 &lt;ol&gt;
 &lt;li&gt;Java Native Access is a more convenient way to call native code than the Java Native Interface.
 It is based on Java Native Interface.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="JNI"></category><category term="JNA"></category><category term="extension"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Input and Output in R</title><link href="http://y570.stat.iastate.edu:8000/blog/io-in-r/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/io-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="JNI"></category><category term="JNA"></category><category term="extension"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Input and Output in R</title><link href="http://lisafly.github.io/blog/io-in-r/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/io-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;All most all input/output functions in R support reading data 
 from all kinds of source including files, console, clipboard and website.
@@ -3079,7 +3079,7 @@ save it as a CSV document and then read in data from the CSV document;
 if you want to write large amount of data into an Excel document, 
 write it into a CSV document (and then save it as an Excel document if necessary).&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="IO"></category><category term="programming"></category></entry><entry><title>R for Numerical Analysis</title><link href="http://y570.stat.iastate.edu:8000/blog/r-for-numerical-analysis/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/r-for-numerical-analysis/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="IO"></category><category term="programming"></category></entry><entry><title>R for Numerical Analysis</title><link href="http://lisafly.github.io/blog/r-for-numerical-analysis/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/r-for-numerical-analysis/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Usually when we check whether two double values equal or not, we
@@ -3109,7 +3109,7 @@ variables into a single vector.&lt;/p&gt;
 and we can use function &lt;code&gt;optim&lt;/code&gt; or &lt;code&gt;optimize&lt;/code&gt; to find the maximum or
 minimum value of a function.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="optimization"></category><category term="programming"></category><category term="numerical analyis"></category><category term="R"></category></entry><entry><title>R System and Configurations</title><link href="http://y570.stat.iastate.edu:8000/blog/r-system-and-configurations/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/r-system-and-configurations/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="optimization"></category><category term="programming"></category><category term="numerical analyis"></category><category term="R"></category></entry><entry><title>R System and Configurations</title><link href="http://lisafly.github.io/blog/r-system-and-configurations/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/r-system-and-configurations/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;To allow opening R from a directory in R in Windows system, we can
@@ -3225,13 +3225,13 @@ this can be very helpful if you use Sweave. For example, if the
 outputs of some R code in Sweave is too long, you can add a similar
 command as above to format the R outputs.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="configuration"></category><category term="programming"></category><category term="system"></category></entry><entry><title>Type Cast In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/type-cast-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/type-cast-in-java/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="configuration"></category><category term="programming"></category><category term="system"></category></entry><entry><title>Type Cast In Java</title><link href="http://lisafly.github.io/blog/type-cast-in-java/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/type-cast-in-java/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;You cannot cast between integer and boolean values. 
 However it is trivia to convert data between integer and boolean. 
 For example,
 &lt;code&gt;int i = b ? 1 : 0;&lt;/code&gt; convert a boolean value &lt;code&gt;b&lt;/code&gt; into an integer value &lt;code&gt;i&lt;/code&gt;, 
 and &lt;code&gt;boolean b = i != 0&lt;/code&gt; convert an integer value &lt;code&gt;i&lt;/code&gt; into a boolean value &lt;code&gt;b&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="cast"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Writing R Extensions</title><link href="http://y570.stat.iastate.edu:8000/blog/writing-r-extensions/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-21:blog/writing-r-extensions/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="cast"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Writing R Extensions</title><link href="http://lisafly.github.io/blog/writing-r-extensions/" rel="alternate"></link><updated>2012-11-21T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-21:blog/writing-r-extensions/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;The following are some tips for using the old fashioned way (using &lt;code&gt;.C&lt;/code&gt; and &lt;code&gt;.Call&lt;/code&gt;) 
 to write R extensions. 
 The state-of-art way to extend R via C/C++ is to use the &lt;code&gt;Rcpp&lt;/code&gt; package.
@@ -3292,7 +3292,7 @@ However,
 you must pass the name of the compiled code to &lt;code&gt;library.dynam&lt;/code&gt; without
 extension.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="Rcpp"></category><category term="programming"></category></entry><entry><title>Graphics In Latex</title><link href="http://y570.stat.iastate.edu:8000/blog/graphics-in-latex/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/graphics-in-latex/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="Rcpp"></category><category term="programming"></category></entry><entry><title>Graphics In Latex</title><link href="http://lisafly.github.io/blog/graphics-in-latex/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-20:blog/graphics-in-latex/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Generally PDF figures are preferred for Latex code.&lt;/p&gt;
 &lt;/li&gt;
@@ -3316,7 +3316,7 @@ If you use it in your Latex code, you have to compile your code using commands &
 \end{figure}
 \end{frame} &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="image"></category><category term="vector"></category><category term="Latex"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Latex Commands for Compiling</title><link href="http://y570.stat.iastate.edu:8000/blog/latex-commands/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/latex-commands/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="image"></category><category term="vector"></category><category term="Latex"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Latex Commands for Compiling</title><link href="http://lisafly.github.io/blog/latex-commands/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-20:blog/latex-commands/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;latex&lt;ul&gt;
 &lt;li&gt;If your latex code contains only EPS figures, you can use the &lt;code&gt;latex&lt;/code&gt; command (also OK to use &lt;code&gt;pdflatex&lt;/code&gt;) to compile your code.   &lt;/li&gt;
 &lt;li&gt;If you use bibtex, you have to compile your code using commands &lt;code&gt;latex&lt;/code&gt;, &lt;code&gt;bibtex&lt;/code&gt;, &lt;code&gt;latex&lt;/code&gt; and &lt;code&gt;latex&lt;/code&gt; in sequence.&lt;/li&gt;
@@ -3342,14 +3342,14 @@ If you use it in your Latex code, you have to compile your code using commands &
 &lt;li&gt;A command seen in WinEdt for compiling Latex code repeatedly until all issues are resolved. This can be a more convenient alternative to apply commands &lt;code&gt;pdflatex&lt;/code&gt;, &lt;code&gt;bibtex&lt;/code&gt;, &lt;code&gt;pdflatex&lt;/code&gt; and &lt;code&gt;pdflatex&lt;/code&gt; when you use bibtex in your Latex code. Surely one can write bash functions to simplify this process in Linux easily.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="compile"></category><category term="Latex"></category><category term="programming"></category></entry><entry><title>Latex For Chinese</title><link href="http://y570.stat.iastate.edu:8000/blog/latex-for-chinese/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/latex-for-chinese/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="compile"></category><category term="Latex"></category><category term="programming"></category></entry><entry><title>Latex For Chinese</title><link href="http://lisafly.github.io/blog/latex-for-chinese/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-20:blog/latex-for-chinese/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;xetex&lt;/code&gt; is the state-of-art way for dealing with Chinese type setting.
 You can use command &lt;code&gt;xelatex&lt;/code&gt; to compile. 
 The utf-8 format is preferred. 
 If you work in Linux, 
 usually you have to install some Chinese fonts,
 e.g., &lt;code&gt;ttf-arphic-uming&lt;/code&gt;, &lt;code&gt;ttf-wqy-microhei&lt;/code&gt; and &lt;code&gt;ttf-wqy-zenhei&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Latex"></category><category term="Chinese"></category><category term="programming"></category></entry><entry><title>Set Line Space In Latex</title><link href="http://y570.stat.iastate.edu:8000/blog/set-line-space-in-latex/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/set-line-space-in-latex/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="Latex"></category><category term="Chinese"></category><category term="programming"></category></entry><entry><title>Set Line Space In Latex</title><link href="http://lisafly.github.io/blog/set-line-space-in-latex/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-20:blog/set-line-space-in-latex/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The &lt;code&gt;parskip&lt;/code&gt; command makes a skip between paragraphs. 
 The length of skip can be set using the command &lt;code&gt;\setlength&lt;/code&gt;, e.g.,&lt;/p&gt;
@@ -3372,7 +3372,7 @@ The length of skip can be set using the command &lt;code&gt;\setlength&lt;/code&
 &lt;p&gt;The command &lt;code&gt;\doublespace&lt;/code&gt; makes lines after this command double spaced. 
 This is convenient to produce PDF document for review.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Latex"></category><category term="programming"></category><category term="spacing"></category></entry><entry><title>Sweave</title><link href="http://y570.stat.iastate.edu:8000/blog/sweave/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-11-20:blog/sweave/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="Latex"></category><category term="programming"></category><category term="spacing"></category></entry><entry><title>Sweave</title><link href="http://lisafly.github.io/blog/sweave/" rel="alternate"></link><updated>2012-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-11-20:blog/sweave/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Do not use sweave unless you are sure that you have run to the same
 code again and again on different data sets, and you want the report
@@ -3394,7 +3394,7 @@ write the auto-write the result into a tex document, and then include
 the file in your main tex file. In this way, you can still redo old work
 easily but without worrying out having different outputs every time.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Latex"></category><category term="programming"></category><category term="Sweave"></category></entry><entry><title>Containers In Java</title><link href="http://y570.stat.iastate.edu:8000/blog/containers-in-java/" rel="alternate"></link><updated>2012-10-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-22:blog/containers-in-java/</id><summary type="html">&lt;h2&gt;ArrayList&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="Latex"></category><category term="programming"></category><category term="Sweave"></category></entry><entry><title>Containers In Java</title><link href="http://lisafly.github.io/blog/containers-in-java/" rel="alternate"></link><updated>2012-10-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-22:blog/containers-in-java/</id><summary type="html">&lt;h2&gt;ArrayList&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;You can point an element of &lt;code&gt;Array&lt;/code&gt; or &lt;code&gt;ArrayList&lt;/code&gt; to &lt;code&gt;null&lt;/code&gt;, 
@@ -3496,7 +3496,7 @@ you can the static &lt;code&gt;Arrays.fill&lt;/code&gt; method.
 Note that arrays in Java are automatically initialized to default values, 
 so you need not to initialize an array if the default value is what you want.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="ArrayList"></category><category term="programming"></category><category term="Java"></category><category term="array"></category><category term="containers"></category><category term="vector"></category></entry><entry><title>Boolean Values In C++</title><link href="http://y570.stat.iastate.edu:8000/blog/boolean-values-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/boolean-values-in-cpp/</id><summary type="html">&lt;h2&gt;Boolean Values&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="ArrayList"></category><category term="programming"></category><category term="Java"></category><category term="array"></category><category term="containers"></category><category term="vector"></category></entry><entry><title>Boolean Values In C++</title><link href="http://lisafly.github.io/blog/boolean-values-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/boolean-values-in-cpp/</id><summary type="html">&lt;h2&gt;Boolean Values&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Boolean expressions are evaluated from left to right (the same in Java),
@@ -3526,7 +3526,7 @@ which is not what we want.
 A safer way is to first check whether numbers involved are NaNs. 
 Hopefully, ternary boolean type will be introduced into C++ in future. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="boolean"></category><category term="C/C++"></category><category term="programming"></category></entry><entry><title>Const And Static Varialbes In Cpp</title><link href="http://y570.stat.iastate.edu:8000/blog/const-and-static-varialbes-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/const-and-static-varialbes-in-cpp/</id><summary type="html">&lt;h2&gt;Const Variables&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="boolean"></category><category term="C/C++"></category><category term="programming"></category></entry><entry><title>Const And Static Varialbes In Cpp</title><link href="http://lisafly.github.io/blog/const-and-static-varialbes-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/const-and-static-varialbes-in-cpp/</id><summary type="html">&lt;h2&gt;Const Variables&lt;/h2&gt;
 &lt;p&gt;but you can initialize a &lt;code&gt;static constexpr&lt;/code&gt; variable inside the defintion of a class.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;constexpr&lt;/code&gt; means that the corresponding value can be dertermined at compile time. &lt;/li&gt;
@@ -3565,7 +3565,7 @@ defining static variables inside non-static methods is potentially dangerous.
 This is because these static variables are intialized once per program not once per instance,
 so that every instances of the class shares the same copy of the variable. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="C++"></category><category term="static"></category><category term="const"></category></entry><entry><title>Containers And Iterators In C++</title><link href="http://y570.stat.iastate.edu:8000/blog/containers-and-iterators-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/containers-and-iterators-in-cpp/</id><summary type="html">&lt;h2&gt;Containers&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="C++"></category><category term="static"></category><category term="const"></category></entry><entry><title>Containers And Iterators In C++</title><link href="http://lisafly.github.io/blog/containers-and-iterators-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/containers-and-iterators-in-cpp/</id><summary type="html">&lt;h2&gt;Containers&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Prefer &lt;code&gt;std::deque&lt;/code&gt; to &lt;code&gt;std::vector&lt;/code&gt; when the size of the container is unknow. &lt;/p&gt;
@@ -3646,7 +3646,7 @@ you can use &lt;/p&gt;
 
 
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="list"></category><category term="set"></category><category term="map"></category><category term="iterator"></category><category term="container"></category><category term="C/C++"></category><category term="vector"></category></entry><entry><title>Common Mistakes in Writting C++ code and Ways to Debug</title><link href="http://y570.stat.iastate.edu:8000/blog/cpp-common-mistakes-and-debug/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/cpp-common-mistakes-and-debug/</id><summary type="html">&lt;h2&gt;Debugging&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="list"></category><category term="set"></category><category term="map"></category><category term="iterator"></category><category term="container"></category><category term="C/C++"></category><category term="vector"></category></entry><entry><title>Common Mistakes in Writting C++ code and Ways to Debug</title><link href="http://lisafly.github.io/blog/cpp-common-mistakes-and-debug/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/cpp-common-mistakes-and-debug/</id><summary type="html">&lt;h2&gt;Debugging&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;gdb is a excellent command tool for debugging C/C++ code. &lt;/li&gt;
 &lt;/ol&gt;
@@ -3734,7 +3734,7 @@ The compiler usually gives the following error message.&lt;/p&gt;
 
 
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="debug"></category><category term="C++"></category><category term="mistake"></category><category term="programming"></category><category term="trap"></category></entry><entry><title>Initializing Varialbes in C++</title><link href="http://y570.stat.iastate.edu:8000/blog/initializing-varialbes-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/initializing-varialbes-in-cpp/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="debug"></category><category term="C++"></category><category term="mistake"></category><category term="programming"></category><category term="trap"></category></entry><entry><title>Initializing Varialbes in C++</title><link href="http://lisafly.github.io/blog/initializing-varialbes-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/initializing-varialbes-in-cpp/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;{}&lt;/code&gt; is more powerful than &lt;code&gt;()&lt;/code&gt; and thus is preferred over &lt;code&gt;()&lt;/code&gt;. 
 You should use always use &lt;code&gt;{}&lt;/code&gt; except for a few cases where &lt;code&gt;()&lt;/code&gt; is necessary.
@@ -3772,7 +3772,7 @@ However you cannot initialize non-const reference using &lt;code&gt;{}&lt;/code&
 using g++ 4.7, 
 which seems to be a bug. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="initialization"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Input And Output In C++</title><link href="http://y570.stat.iastate.edu:8000/blog/input-and-output-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/input-and-output-in-cpp/</id><summary type="html">&lt;p&gt;Check &lt;a href="https://github.com/dclong/cearn/tree/master/io"&gt;here&lt;/a&gt; 
+&lt;/ol&gt;</summary><category term="initialization"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Input And Output In C++</title><link href="http://lisafly.github.io/blog/input-and-output-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/input-and-output-in-cpp/</id><summary type="html">&lt;p&gt;Check &lt;a href="https://github.com/dclong/cearn/tree/master/io"&gt;here&lt;/a&gt; 
 for some illustrative examples for the following discussions. &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -3803,7 +3803,7 @@ i.e. &lt;/p&gt;
 
 &lt;p&gt;You cannot use &lt;code&gt;sizeof(x)&lt;/code&gt;, 
 because it is the size of the vector itself 
-(without counting the underlying array) and is always the same (12). &lt;/p&gt;</summary><category term="C/C++"></category><category term="IO"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Lambda Function In C++11</title><link href="http://y570.stat.iastate.edu:8000/blog/lambda-function-in-cpp11/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/lambda-function-in-cpp11/</id><summary type="html">&lt;h2&gt;Lambda Function&lt;/h2&gt;
+(without counting the underlying array) and is always the same (12). &lt;/p&gt;</summary><category term="C/C++"></category><category term="IO"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Lambda Function In C++11</title><link href="http://lisafly.github.io/blog/lambda-function-in-cpp11/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/lambda-function-in-cpp11/</id><summary type="html">&lt;h2&gt;Lambda Function&lt;/h2&gt;
 &lt;p&gt;Check [here[(https://github.com/dclong/cearn/tree/master/lambda) 
 for illustrative examples for the following discussions. &lt;/p&gt;
 &lt;ol&gt;
@@ -3856,7 +3856,7 @@ so you can consider it as capture by reference.
 The second way is capture by value. 
 Surely you make it capture by reference by adding &lt;code&gt;&amp;amp;&lt;/code&gt; before &lt;code&gt;d&lt;/code&gt;. 
 This is the preferred over the first way of capturing &lt;code&gt;this&lt;/code&gt; 
-if you just want to capture &lt;code&gt;data&lt;/code&gt; not other member variables. &lt;/p&gt;</summary><category term="C++"></category><category term="lambda"></category><category term="programming"></category></entry><entry><title>Performance Tips For C++</title><link href="http://y570.stat.iastate.edu:8000/blog/performance-tips-for-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/performance-tips-for-cpp/</id><summary type="html">&lt;h2&gt;Performance&lt;/h2&gt;
+if you just want to capture &lt;code&gt;data&lt;/code&gt; not other member variables. &lt;/p&gt;</summary><category term="C++"></category><category term="lambda"></category><category term="programming"></category></entry><entry><title>Performance Tips For C++</title><link href="http://lisafly.github.io/blog/performance-tips-for-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/performance-tips-for-cpp/</id><summary type="html">&lt;h2&gt;Performance&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;If there is some block of useless code, 
@@ -3881,7 +3881,7 @@ if you know it.
 Even if you do not know the exactly size of a vector, 
 it is often a good idea to initialize the vector with an rough estimate of its final size. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="peformance"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Pointers in C++</title><link href="http://y570.stat.iastate.edu:8000/blog/pointers-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/pointers-in-cpp/</id><summary type="html">&lt;h2&gt;Pointers&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="peformance"></category><category term="C++"></category><category term="programming"></category></entry><entry><title>Pointers in C++</title><link href="http://lisafly.github.io/blog/pointers-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/pointers-in-cpp/</id><summary type="html">&lt;h2&gt;Pointers&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;No pointer, no polymorphism.&lt;/p&gt;
@@ -3903,7 +3903,7 @@ you have to use &lt;code&gt;delete[] p&lt;/code&gt; to delete it when it is no l
 &lt;p&gt;&lt;code&gt;auto_ptr&lt;/code&gt; objects cannot be stored in STL containers, 
 because they are not copy-construable or assignable.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="pointer"></category></entry><entry><title>Template Meta Programming</title><link href="http://y570.stat.iastate.edu:8000/blog/template-meta-programming/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/template-meta-programming/</id><summary type="html">&lt;p&gt;Illustrative examples for the following discussions can be found 
+&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="pointer"></category></entry><entry><title>Template Meta Programming</title><link href="http://lisafly.github.io/blog/template-meta-programming/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/template-meta-programming/</id><summary type="html">&lt;p&gt;Illustrative examples for the following discussions can be found 
 &lt;a href="https://github.com/dclong/cearn/tree/master/template"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4030,7 +4030,7 @@ You have to use them by &lt;code&gt;this&lt;/code&gt; pointer. &lt;/p&gt;
 Template is sort of static polymorphism while virtual is sort of dynamic polymorphism.
 They cannot be mixed together. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="overload"></category><category term="programming"></category><category term="TMP"></category><category term="specialization"></category><category term="C++"></category><category term="template"></category></entry><entry><title>Working With Class In C++</title><link href="http://y570.stat.iastate.edu:8000/blog/working-with-class-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/working-with-class-in-cpp/</id><summary type="html">&lt;p&gt;Illustrative examples for the following discussions can be found 
+&lt;/ol&gt;</summary><category term="overload"></category><category term="programming"></category><category term="TMP"></category><category term="specialization"></category><category term="C++"></category><category term="template"></category></entry><entry><title>Working With Class In C++</title><link href="http://lisafly.github.io/blog/working-with-class-in-cpp/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/working-with-class-in-cpp/</id><summary type="html">&lt;p&gt;Illustrative examples for the following discussions can be found 
 &lt;a href="https://github.com/dclong/cearn/tree/master/class"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4154,7 +4154,7 @@ The original article can be found &lt;a href="http://www.gotw.ca/publications/mi
 &lt;p&gt;A class without a public destructor cannot be used by itself. 
 It servers as a base class only. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="destructor"></category><category term="programming"></category><category term="inheritance"></category><category term="override"></category><category term="class"></category><category term="hidding"></category><category term="constructor"></category></entry><entry><title>Write Portable C++ Code</title><link href="http://y570.stat.iastate.edu:8000/blog/write-portable-cpp-code/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-10-21:blog/write-portable-cpp-code/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="C++"></category><category term="destructor"></category><category term="programming"></category><category term="inheritance"></category><category term="override"></category><category term="class"></category><category term="hidding"></category><category term="constructor"></category></entry><entry><title>Write Portable C++ Code</title><link href="http://lisafly.github.io/blog/write-portable-cpp-code/" rel="alternate"></link><updated>2012-10-21T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-10-21:blog/write-portable-cpp-code/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Addresses on 64 and 32 OS are different, 
 so you have to be careful when your program have to deal with address. 
@@ -4169,7 +4169,7 @@ on the current architecture (i.e. 16-bit, 32-bit or 64-bit) compiling the code.
 So, to make your code portable,
 you should decare indexing variables in loops as &lt;code&gt;std::size_t&lt;/code&gt; instead of &lt;code&gt;int&lt;/code&gt; or &lt;code&gt;unsigned int&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="portable"></category></entry><entry><title>Install GSL Library</title><link href="http://y570.stat.iastate.edu:8000/blog/install-gsl-library/" rel="alternate"></link><updated>2012-09-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-25:blog/install-gsl-library/</id><summary type="html">&lt;p&gt;GSL is an advance C/C++ library that is widely used. 
+&lt;/ol&gt;</summary><category term="C++"></category><category term="programming"></category><category term="portable"></category></entry><entry><title>Install GSL Library</title><link href="http://lisafly.github.io/blog/install-gsl-library/" rel="alternate"></link><updated>2012-09-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-09-25:blog/install-gsl-library/</id><summary type="html">&lt;p&gt;GSL is an advance C/C++ library that is widely used. 
 To install GSL, 
 you can download the source file and 
 following instruction in the included README and INSTALL document. 
@@ -4184,7 +4184,7 @@ For example, you can use the following command to install the GSL library in Deb
 so that you do not have specify the &lt;code&gt;-I&lt;/code&gt; and &lt;code&gt;-L&lt;/code&gt; options for the GSL library. 
 However, 
 you still have to use the option &lt;code&gt;-lgsl&lt;/code&gt; and &lt;code&gt;-lgslcblas&lt;/code&gt; 
-(can be replaced by other available BLAS libraries) in order to compile your code using GSL.&lt;/p&gt;</summary><category term="Debian"></category><category term="C/C++"></category><category term="Linux"></category><category term="programming"></category><category term="GSL"></category></entry><entry><title>Rcpp Rocks</title><link href="http://y570.stat.iastate.edu:8000/blog/rcpp-rocks/" rel="alternate"></link><updated>2012-09-24T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-24:blog/rcpp-rocks/</id><summary type="html">&lt;p&gt;Please see &lt;a href="https://bitbucket.org/dclong/r_learn/src/c815d79db3ad2735f5f75a5a56d35eec1fdd7eb3/rcpp?at=master"&gt;here&lt;/a&gt; for some simple examples for learning Rcpp and related packages.&lt;/p&gt;
+(can be replaced by other available BLAS libraries) in order to compile your code using GSL.&lt;/p&gt;</summary><category term="Debian"></category><category term="C/C++"></category><category term="Linux"></category><category term="programming"></category><category term="GSL"></category></entry><entry><title>Rcpp Rocks</title><link href="http://lisafly.github.io/blog/rcpp-rocks/" rel="alternate"></link><updated>2012-09-24T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-09-24:blog/rcpp-rocks/</id><summary type="html">&lt;p&gt;Please see &lt;a href="https://bitbucket.org/dclong/r_learn/src/c815d79db3ad2735f5f75a5a56d35eec1fdd7eb3/rcpp?at=master"&gt;here&lt;/a&gt; for some simple examples for learning Rcpp and related packages.&lt;/p&gt;
 &lt;h2&gt;Tips&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4360,11 +4360,11 @@ For example,
 you can put the statement &lt;code&gt;RNGScope scope;&lt;/code&gt; in the function/block that you have to call 
 random number generating functions.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C++"></category><category term="list"></category><category term="programming"></category><category term="HPC"></category><category term="Rcpp"></category><category term="R"></category><category term="RcppArmadillo"></category><category term="Armadillo"></category></entry><entry><title>Automated Verizon Phone Bill (Continued)</title><link href="http://y570.stat.iastate.edu:8000/blog/automated-verizon-phone-bill-continued/" rel="alternate"></link><updated>2012-09-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-05:blog/automated-verizon-phone-bill-continued/</id><summary type="html">&lt;p&gt;I have switched to the "Share Everything" plan of Verizon two weeks ago,
+&lt;/ol&gt;</summary><category term="C++"></category><category term="list"></category><category term="programming"></category><category term="HPC"></category><category term="Rcpp"></category><category term="R"></category><category term="RcppArmadillo"></category><category term="Armadillo"></category></entry><entry><title>Automated Verizon Phone Bill (Continued)</title><link href="http://lisafly.github.io/blog/automated-verizon-phone-bill-continued/" rel="alternate"></link><updated>2012-09-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-09-05:blog/automated-verizon-phone-bill-continued/</id><summary type="html">&lt;p&gt;I have switched to the "Share Everything" plan of Verizon two weeks ago,
 and I got a little complex bill this month due to people leaving and joining my family plan. 
 My ruby program for parsing phone bill still works well. 
 It is actually surprising smarter than I thought on this complicated bill. 
-Big congratulations to myself!&lt;/p&gt;</summary><category term="phone"></category><category term="verizon"></category><category term="Ruby"></category><category term="programming"></category></entry><entry><title>Tips for Python</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-python/" rel="alternate"></link><updated>2012-09-02T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-09-02:blog/tips-python/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/python/python.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+Big congratulations to myself!&lt;/p&gt;</summary><category term="phone"></category><category term="verizon"></category><category term="Ruby"></category><category term="programming"></category></entry><entry><title>Tips for Python</title><link href="http://lisafly.github.io/blog/tips-python/" rel="alternate"></link><updated>2012-09-02T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-09-02:blog/tips-python/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/python/python.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;h2&gt;String&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4374,14 +4374,14 @@ The method &lt;code&gt;String.title&lt;/code&gt; capitalizes each word.&lt;/p&gt
 &lt;li&gt;
 &lt;p&gt;The method &lt;code&gt;String.replace&lt;/code&gt; replaces an old string with a new string.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Python"></category><category term="replace"></category><category term="programming"></category><category term="string"></category><category term="tips"></category><category term="capitalize"></category><category term="sustitution"></category></entry><entry><title>A Input Bug in Ruby</title><link href="http://y570.stat.iastate.edu:8000/blog/input-bug-ruby/" rel="alternate"></link><updated>2012-08-27T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-27:blog/input-bug-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="Python"></category><category term="replace"></category><category term="programming"></category><category term="string"></category><category term="tips"></category><category term="capitalize"></category><category term="sustitution"></category></entry><entry><title>A Input Bug in Ruby</title><link href="http://lisafly.github.io/blog/input-bug-ruby/" rel="alternate"></link><updated>2012-08-27T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-27:blog/input-bug-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;If you run a ruby program though Bash 
 and the ruby program read multiple inputs from the console, 
 all inputs will be the same as the first argument. 
-I'm not very sure how to solve this problem.&lt;/p&gt;</summary><category term="programming"></category><category term="Bash"></category><category term="Ruby"></category><category term="bug"></category><category term="terminal"></category><category term="IO"></category></entry><entry><title>Load User-written Script into Ruby</title><link href="http://y570.stat.iastate.edu:8000/blog/load-script-ruby/" rel="alternate"></link><updated>2012-08-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-25:blog/load-script-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+I'm not very sure how to solve this problem.&lt;/p&gt;</summary><category term="programming"></category><category term="Bash"></category><category term="Ruby"></category><category term="bug"></category><category term="terminal"></category><category term="IO"></category></entry><entry><title>Load User-written Script into Ruby</title><link href="http://lisafly.github.io/blog/load-script-ruby/" rel="alternate"></link><updated>2012-08-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-25:blog/load-script-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;By default the current working directoly is not in the search path of Ruby. 
 To load a user-written script named "script.rb" into Ruby, 
-you can use the command &lt;code&gt;require './script.rb'&lt;/code&gt;.&lt;/p&gt;</summary><category term="search path"></category><category term="require"></category><category term="programming"></category><category term="load"></category><category term="package"></category><category term="Ruby"></category></entry><entry><title>Tips for Ruby</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-ruby/" rel="alternate"></link><updated>2012-08-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-25:blog/tips-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="200" align="right"/&gt;&lt;/p&gt;
+you can use the command &lt;code&gt;require './script.rb'&lt;/code&gt;.&lt;/p&gt;</summary><category term="search path"></category><category term="require"></category><category term="programming"></category><category term="load"></category><category term="package"></category><category term="Ruby"></category></entry><entry><title>Tips for Ruby</title><link href="http://lisafly.github.io/blog/tips-ruby/" rel="alternate"></link><updated>2012-08-25T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-25:blog/tips-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="200" align="right"/&gt;&lt;/p&gt;
 &lt;h2&gt;Array&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4460,7 +4460,7 @@ The number of files passed as arguments is returned. &lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;You'd not define a function with the same as some directly usable function/method in Ruby.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="array"></category><category term="IO"></category><category term="Ruby"></category><category term="programming"></category><category term="string"></category></entry><entry><title>String in C++11</title><link href="http://y570.stat.iastate.edu:8000/blog/cpp-auto-string/" rel="alternate"></link><updated>2012-08-20T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-20:blog/cpp-auto-string/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="array"></category><category term="IO"></category><category term="Ruby"></category><category term="programming"></category><category term="string"></category></entry><entry><title>String in C++11</title><link href="http://lisafly.github.io/blog/cpp-auto-string/" rel="alternate"></link><updated>2012-08-20T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-20:blog/cpp-auto-string/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;auto s = "abcd"&lt;/code&gt; creats &lt;code&gt;const char *&lt;/code&gt; not string, so use &lt;code&gt;auto&lt;/code&gt; with caution. &lt;/p&gt;
 &lt;/li&gt;
@@ -4478,7 +4478,7 @@ interfaces (e.g., compiled as shared library and so on).&lt;/p&gt;
 &lt;p&gt;You can use &lt;code&gt;==&lt;/code&gt; to compare whether the content of two &lt;code&gt;std::string&lt;/code&gt; are the same,
 but you cannot use &lt;code&gt;==&lt;/code&gt; to compare the content of &lt;code&gt;const char *&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="auto"></category><category term="iteration"></category><category term="programming"></category><category term="C/C++"></category><category term="string"></category><category term="loop"></category><category term="char"></category></entry><entry><title>Lvalue Reference and Rvalue Reference</title><link href="http://y570.stat.iastate.edu:8000/blog/lvalue-rvalue-reference/" rel="alternate"></link><updated>2012-08-19T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-19:blog/lvalue-rvalue-reference/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/cpp/left-right.jpg" height="180" width="200" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="auto"></category><category term="iteration"></category><category term="programming"></category><category term="C/C++"></category><category term="string"></category><category term="loop"></category><category term="char"></category></entry><entry><title>Lvalue Reference and Rvalue Reference</title><link href="http://lisafly.github.io/blog/lvalue-rvalue-reference/" rel="alternate"></link><updated>2012-08-19T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-19:blog/lvalue-rvalue-reference/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/cpp/left-right.jpg" height="180" width="200" align="right"/&gt;&lt;/p&gt;
 &lt;h2&gt;Difference betwen Lvalue and Rvalue Reference&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4544,7 +4544,7 @@ overload it with rvalue reference and move the content.&lt;/p&gt;
 &lt;p&gt;When you write a class with the copy constructor and the assignment operator, 
 write also the move constructor and the move assignment operator.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="C/C++"></category><category term="reference"></category><category term="programming"></category></entry><entry><title>An IO Bug in R</title><link href="http://y570.stat.iastate.edu:8000/blog/input-bug-r/" rel="alternate"></link><updated>2012-08-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-16:blog/input-bug-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="C/C++"></category><category term="reference"></category><category term="programming"></category></entry><entry><title>An IO Bug in R</title><link href="http://lisafly.github.io/blog/input-bug-r/" rel="alternate"></link><updated>2012-08-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-16:blog/input-bug-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;I encountered an input/output bug in R in Linux system. 
 The symptom is that input and output are not displayed in the terminal 
 and the warning message 
@@ -4561,7 +4561,7 @@ any mistake typing in the command. To quit the R session after saving
 the workspace, you can type in 'q('no')' in the console. 
 Similarly, you won't see anything in the console, so make sure you do not 
 make any mistake. Now can open a new R session, and then load in the saved 
-workspace. &lt;/p&gt;</summary><category term="warning"></category><category term="IO"></category><category term="programming"></category><category term="R"></category></entry><entry><title>Keep Matrix Structure when Extract a Row/Column from a Matrix</title><link href="http://y570.stat.iastate.edu:8000/blog/keep-matrix-structure-r/" rel="alternate"></link><updated>2012-08-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-08-16:blog/keep-matrix-structure-r/</id><summary type="html">&lt;p&gt;I talked in the post &lt;a href=""&gt;Abuse of Vector in R&lt;/a&gt; that 
+workspace. &lt;/p&gt;</summary><category term="warning"></category><category term="IO"></category><category term="programming"></category><category term="R"></category></entry><entry><title>Keep Matrix Structure when Extract a Row/Column from a Matrix</title><link href="http://lisafly.github.io/blog/keep-matrix-structure-r/" rel="alternate"></link><updated>2012-08-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-08-16:blog/keep-matrix-structure-r/</id><summary type="html">&lt;p&gt;I talked in the post &lt;a href=""&gt;Abuse of Vector in R&lt;/a&gt; that 
 it is often the case that we want keep the matrix sturcture when 
 extracting a row/column from a matrix,
 i.e., we often want to return a matrix with 1 row/column when extracting 
@@ -4588,7 +4588,7 @@ you can the function &lt;code&gt;drop&lt;/code&gt;. See the following example. &
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,]&lt;/span&gt;    &lt;span class="mi"&gt;4&lt;/span&gt;    &lt;span class="mi"&gt;8&lt;/span&gt;   &lt;span class="mi"&gt;12&lt;/span&gt;   &lt;span class="mi"&gt;16&lt;/span&gt;
 &lt;span class="n"&gt;drop&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;  &lt;span class="mi"&gt;5&lt;/span&gt;  &lt;span class="mi"&gt;9&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="programming"></category><category term="data structure"></category><category term="algebra"></category><category term="matrix"></category><category term="R"></category><category term="vector"></category></entry><entry><title>Tips for the IML Procedure in SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/sas-iml-procedure/" rel="alternate"></link><updated>2012-07-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-07-11:blog/sas-iml-procedure/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="programming"></category><category term="data structure"></category><category term="algebra"></category><category term="matrix"></category><category term="R"></category><category term="vector"></category></entry><entry><title>Tips for the IML Procedure in SAS</title><link href="http://lisafly.github.io/blog/sas-iml-procedure/" rel="alternate"></link><updated>2012-07-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-07-11:blog/sas-iml-procedure/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;End an &lt;code&gt;IML&lt;/code&gt; procedure with &lt;code&gt;quit&lt;/code&gt;.&lt;/p&gt;
@@ -4639,7 +4639,7 @@ sure about the maximum length.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;You can &lt;code&gt;||&lt;/code&gt; to combine matrix horizontally and &lt;code&gt;//&lt;/code&gt; to combine matrix vertically. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="SAS"></category><category term="matrix"></category><category term="programming"></category><category term="IML"></category></entry><entry><title>Make Plots in SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/sas-plot/" rel="alternate"></link><updated>2012-07-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-07-11:blog/sas-plot/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="SAS"></category><category term="matrix"></category><category term="programming"></category><category term="IML"></category></entry><entry><title>Make Plots in SAS</title><link href="http://lisafly.github.io/blog/sas-plot/" rel="alternate"></link><updated>2012-07-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-07-11:blog/sas-plot/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;There are functions to add points, lines and legends to an existing plot in R.
@@ -4654,7 +4654,7 @@ PROC SGPANEL divides the window into several parts and make plots on these sub a
 &lt;li&gt;
 &lt;p&gt;It is possible to call R from SAS which means that you can use R to make plots in SAS if you like. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="image"></category><category term="SAS"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Useful Packages and Commands for Latex</title><link href="http://y570.stat.iastate.edu:8000/blog/useful-packages-for-latex/" rel="alternate"></link><updated>2012-07-09T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-07-09:blog/useful-packages-for-latex/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/latex/latex.gif" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="image"></category><category term="SAS"></category><category term="graphics"></category><category term="programming"></category></entry><entry><title>Useful Packages and Commands for Latex</title><link href="http://lisafly.github.io/blog/useful-packages-for-latex/" rel="alternate"></link><updated>2012-07-09T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-07-09:blog/useful-packages-for-latex/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/latex/latex.gif" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;h2&gt;Math Packages&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;\usepackage{amssymb} &lt;ul&gt;
@@ -4746,7 +4746,7 @@ For more information, please refer to &lt;a href="http://en.wikibooks.org/wiki/L
 &lt;li&gt;use adobe fonts as the main font&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="color"></category><category term="programming"></category><category term="list"></category><category term="Latex"></category><category term="package"></category><category term="bibliography"></category><category term="enumerate"></category><category term="formula"></category><category term="math"></category><category term="graphics"></category></entry><entry><title>Tips for Markdown</title><link href="http://y570.stat.iastate.edu:8000/blog/markdown-tips/" rel="alternate"></link><updated>2012-07-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-07-08:blog/markdown-tips/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/markdown/markdown.gif" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="color"></category><category term="programming"></category><category term="list"></category><category term="Latex"></category><category term="package"></category><category term="bibliography"></category><category term="enumerate"></category><category term="formula"></category><category term="math"></category><category term="graphics"></category></entry><entry><title>Tips for Markdown</title><link href="http://lisafly.github.io/blog/markdown-tips/" rel="alternate"></link><updated>2012-07-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-07-08:blog/markdown-tips/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/markdown/markdown.gif" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Jekyll interprete contents in two nested curly brackets as a variable 
@@ -4789,7 +4789,7 @@ Later items do not have to start with bigger nature numbers.&lt;/p&gt;
 If you want the url to show up as it is, you can use &lt;code&gt;[url](url)&lt;/code&gt;.
 However, this is not convenient. A better way is to use &lt;code&gt;&amp;lt;url&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="Markdown"></category><category term="Jekyll"></category><category term="programming"></category></entry><entry><title>Thread Safe Random Number Generator</title><link href="http://y570.stat.iastate.edu:8000/blog/thread-safe-random-number-generator/" rel="alternate"></link><updated>2012-07-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-07-08:blog/thread-safe-random-number-generator/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/rng/random-number-generator.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="Markdown"></category><category term="Jekyll"></category><category term="programming"></category></entry><entry><title>Thread Safe Random Number Generator</title><link href="http://lisafly.github.io/blog/thread-safe-random-number-generator/" rel="alternate"></link><updated>2012-07-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-07-08:blog/thread-safe-random-number-generator/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/rng/random-number-generator.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;In statistical simulation, a thread safe random number generator is often useful. 
 Thread safty can be achieved by synchronize public methods of random number generator 
 engines. In C++, this can be done through mutex (see more about my post on multithreading 
@@ -4864,7 +4864,7 @@ betters ways to generate random numbers in parallel. The basic is to make the
 random number engine to jump forward a long enough distance quickly. Currently
 many popular random number generators can jump forward a long enough distance in
 a acceptable short time. For example, the Mersenne Twister can jump forward in
-milliseconds. For more information, please see &lt;a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/#dSFMT"&gt;SFMT&lt;/a&gt;.&lt;/p&gt;</summary><category term="C++"></category><category term="RNG"></category><category term="programming"></category><category term="thread"></category><category term="distribution"></category><category term="HPC"></category><category term="fun problems"></category><category term="MT"></category><category term="Concurrency"></category></entry><entry><title>Tips for Multithreading/Concurrency Programming in C++11</title><link href="http://y570.stat.iastate.edu:8000/blog/cpp11-concurrency-tips/" rel="alternate"></link><updated>2012-06-24T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-24:blog/cpp11-concurrency-tips/</id><summary type="html">&lt;ol&gt;
+milliseconds. For more information, please see &lt;a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/#dSFMT"&gt;SFMT&lt;/a&gt;.&lt;/p&gt;</summary><category term="C++"></category><category term="RNG"></category><category term="programming"></category><category term="thread"></category><category term="distribution"></category><category term="HPC"></category><category term="fun problems"></category><category term="MT"></category><category term="Concurrency"></category></entry><entry><title>Tips for Multithreading/Concurrency Programming in C++11</title><link href="http://lisafly.github.io/blog/cpp11-concurrency-tips/" rel="alternate"></link><updated>2012-06-24T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-24:blog/cpp11-concurrency-tips/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;If you use g++ to compile your parallel program which uses the thread library,
 you need to use the option &lt;code&gt;-lpthread&lt;/code&gt;. 
@@ -4955,11 +4955,11 @@ otherwise, it is easy to make mistakes. &lt;/p&gt;
 A good article from Herb Sutter can be found 
 &lt;a href="http://www.drdobbs.com/architecture-and-design/know-when-to-use-an-active-object-instea/227500074?pgno=1"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="C/C++"></category><category term="Java"></category><category term="HPC"></category><category term="async"></category><category term="mutex"></category><category term="future"></category><category term="concurrency"></category><category term="promise"></category></entry><entry><title>Copy Arrays in Java</title><link href="http://y570.stat.iastate.edu:8000/blog/copy-array-java/" rel="alternate"></link><updated>2012-06-23T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-23:blog/copy-array-java/</id><summary type="html">&lt;p&gt;There are many different ways to copy arrays of object (primitive types) in Java. 
+&lt;/ol&gt;</summary><category term="programming"></category><category term="C/C++"></category><category term="Java"></category><category term="HPC"></category><category term="async"></category><category term="mutex"></category><category term="future"></category><category term="concurrency"></category><category term="promise"></category></entry><entry><title>Copy Arrays in Java</title><link href="http://lisafly.github.io/blog/copy-array-java/" rel="alternate"></link><updated>2012-06-23T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-23:blog/copy-array-java/</id><summary type="html">&lt;p&gt;There are many different ways to copy arrays of object (primitive types) in Java. 
 However, 
 the fastest way seems to be the method &lt;code&gt;System.arraycopy&lt;/code&gt;. 
 This methed is implemented using native code and only performs a shallow copy. 
-Acutally most methods for copying arrays in Java perform shallow copy.&lt;/p&gt;</summary><category term="array"></category><category term="copy"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>How to Submit R Package to CRAN</title><link href="http://y570.stat.iastate.edu:8000/blog/submit-r-package-cran/" rel="alternate"></link><updated>2012-06-17T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-17:blog/submit-r-package-cran/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
+Acutally most methods for copying arrays in Java perform shallow copy.&lt;/p&gt;</summary><category term="array"></category><category term="copy"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>How to Submit R Package to CRAN</title><link href="http://lisafly.github.io/blog/submit-r-package-cran/" rel="alternate"></link><updated>2012-06-17T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-17:blog/submit-r-package-cran/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
 Submit using &lt;a href="http://xmpalantir.wu.ac.at/cransubmit/"&gt;web form&lt;/a&gt; or using ftp following the steps below.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -4972,7 +4972,7 @@ to &lt;a href="ftp://CRAN.R-project.org/incoming/"&gt;ftp://CRAN.R-project.org/i
 &lt;p&gt;Send a message to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#67;&amp;#82;&amp;#65;&amp;#78;&amp;#64;&amp;#82;&amp;#45;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#46;&amp;#111;&amp;#114;&amp;#103;"&gt;&amp;#67;&amp;#82;&amp;#65;&amp;#78;&amp;#64;&amp;#82;&amp;#45;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#46;&amp;#111;&amp;#114;&amp;#103;&lt;/a&gt; about it. 
 The email should contain the package name and version in the subject line. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="ftp"></category><category term="sftp"></category><category term="programming"></category></entry><entry><title>Parallel Computing in Java</title><link href="http://y570.stat.iastate.edu:8000/blog/parallel-computing-java/" rel="alternate"></link><updated>2012-06-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-11:blog/parallel-computing-java/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/java/multithreading.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="ftp"></category><category term="sftp"></category><category term="programming"></category></entry><entry><title>Parallel Computing in Java</title><link href="http://lisafly.github.io/blog/parallel-computing-java/" rel="alternate"></link><updated>2012-06-11T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-11:blog/parallel-computing-java/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/java/multithreading.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;The following are a few tips for multithreading parallel computing in Java.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -5182,7 +5182,7 @@ The following example sums integers in parallel using the AtomicInteger class.&l
 Using thread pool is more convenient and is scalable for general purpose jobs. 
 However, if you know that all jobs requires almost the same time to run, using
 user-managed threads is more efficient because it creates much fewer objects.
-This is often true in statistics simulations. &lt;/p&gt;</summary><category term="lock"></category><category term="programming"></category><category term="thread"></category><category term="race condition"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category><category term="mutex"></category></entry><entry><title>Operators in Different Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/operators-popular-language/" rel="alternate"></link><updated>2012-06-10T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-10:blog/operators-popular-language/</id><summary type="html">&lt;table border="1" align="center"&gt;
+This is often true in statistics simulations. &lt;/p&gt;</summary><category term="lock"></category><category term="programming"></category><category term="thread"></category><category term="race condition"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="concurrency"></category><category term="mutex"></category></entry><entry><title>Operators in Different Programming Languages</title><link href="http://lisafly.github.io/blog/operators-popular-language/" rel="alternate"></link><updated>2012-06-10T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-10:blog/operators-popular-language/</id><summary type="html">&lt;table border="1" align="center"&gt;
     &lt;tr&gt;
         &lt;th&gt; &lt;/th&gt;
         &lt;th&gt;Bash&lt;/th&gt;
@@ -5483,7 +5483,7 @@ This is often true in statistics simulations. &lt;/p&gt;</summary><category term
     &lt;/tr&gt;
 
 
-&lt;/table&gt;</summary><category term="Mathematica"></category><category term="Python"></category><category term="Julia"></category><category term="programming"></category><category term="C/C++"></category><category term="Java"></category><category term="D"></category><category term="operator"></category><category term="Bash"></category><category term="Ruby"></category><category term="R"></category><category term="VB/VB.net"></category><category term="MATLAB"></category></entry><entry><title>Tips for Using "roxygen2" to Write R packages</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-roxygen2/" rel="alternate"></link><updated>2012-06-10T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-10:blog/tips-roxygen2/</id><summary type="html">&lt;p&gt;The following are some roxygen2 tags that I use frequently for writing R packages.&lt;/p&gt;
+&lt;/table&gt;</summary><category term="Mathematica"></category><category term="Python"></category><category term="Julia"></category><category term="programming"></category><category term="C/C++"></category><category term="Java"></category><category term="D"></category><category term="operator"></category><category term="Bash"></category><category term="Ruby"></category><category term="R"></category><category term="VB/VB.net"></category><category term="MATLAB"></category></entry><entry><title>Tips for Using "roxygen2" to Write R packages</title><link href="http://lisafly.github.io/blog/tips-roxygen2/" rel="alternate"></link><updated>2012-06-10T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-10:blog/tips-roxygen2/</id><summary type="html">&lt;p&gt;The following are some roxygen2 tags that I use frequently for writing R packages.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Some R example code can take a long time to run. 
@@ -5519,7 +5519,7 @@ and &lt;code&gt;fun2&lt;/code&gt; from a package, use the tag &lt;code&gt;@impor
 with the same name as the function name. 
 You can use the tag &lt;code&gt;@rdname&lt;/code&gt; to override the name of the Rd document.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="package"></category><category term="programming"></category><category term="tags"></category></entry><entry><title>Call Java in R using Package rJava</title><link href="http://y570.stat.iastate.edu:8000/blog/call-java-in-r/" rel="alternate"></link><updated>2012-06-09T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-09:blog/call-java-in-r/</id><summary type="html">&lt;p&gt;The package "rJava" offers a convenient way to call Java code from R. 
+&lt;/ol&gt;</summary><category term="R"></category><category term="package"></category><category term="programming"></category><category term="tags"></category></entry><entry><title>Call Java in R using Package rJava</title><link href="http://lisafly.github.io/blog/call-java-in-r/" rel="alternate"></link><updated>2012-06-09T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-09:blog/call-java-in-r/</id><summary type="html">&lt;p&gt;The package "rJava" offers a convenient way to call Java code from R. 
 The following are some tips for using the "rJava" package.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -5552,7 +5552,7 @@ static method you want to call. &lt;/p&gt;
 &lt;p&gt;To pass an vector to a Java method, you have to use the function 
 &lt;code&gt;.jarray&lt;/code&gt; to convert the vector to a Java array. &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="programming"></category><category term="Java"></category><category term="array"></category><category term="rJava"></category><category term="R"></category><category term="vector"></category></entry><entry><title>Easy Made Mistakes when Writing R code</title><link href="http://y570.stat.iastate.edu:8000/blog/mistakes-r/" rel="alternate"></link><updated>2012-06-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-08:blog/mistakes-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/mistake.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="programming"></category><category term="Java"></category><category term="array"></category><category term="rJava"></category><category term="R"></category><category term="vector"></category></entry><entry><title>Easy Made Mistakes when Writing R code</title><link href="http://lisafly.github.io/blog/mistakes-r/" rel="alternate"></link><updated>2012-06-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-08:blog/mistakes-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/mistake.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;Being flexible is a two-side sword to R. 
 While it make it convenient and productive to use R,
 it is also very easy to make mistakes when writing R code. 
@@ -5619,7 +5619,7 @@ A row of data frame is still a data frame (with 1 row). R is
 evil in the sence that it coerce data type wheneve necessary 
 without noticing users. ...&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="vector"></category><category term="operator"></category><category term="mistake"></category><category term="programming"></category><category term="R"></category></entry><entry><title>Define Operator in R</title><link href="http://y570.stat.iastate.edu:8000/blog/overload-operator-r/" rel="alternate"></link><updated>2012-06-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-08:blog/overload-operator-r/</id><summary type="html">&lt;p&gt;One thing I do not like R is that operations on String in R 
+&lt;/ol&gt;</summary><category term="vector"></category><category term="operator"></category><category term="mistake"></category><category term="programming"></category><category term="R"></category></entry><entry><title>Define Operator in R</title><link href="http://lisafly.github.io/blog/overload-operator-r/" rel="alternate"></link><updated>2012-06-08T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-08:blog/overload-operator-r/</id><summary type="html">&lt;p&gt;One thing I do not like R is that operations on String in R 
 are not as convenient as in other programming langauges such as Java, Python and Ruby. 
 In these 3 programming languages, 
 you can simply use &lt;code&gt;+&lt;/code&gt; to concatenate strings while in R you have to use the function &lt;code&gt;paste&lt;/code&gt;.
@@ -5630,7 +5630,7 @@ the following code renew the definition of &lt;code&gt;+&lt;/code&gt; to concate
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="s2"&gt;&amp;quot;+&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;y&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
     &lt;span class="nx"&gt;paste&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;y&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;sep&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="R"></category><category term="operator"></category><category term="overloading"></category><category term="override"></category><category term="programming"></category></entry><entry><title>Send Email in Ruby</title><link href="http://y570.stat.iastate.edu:8000/blog/send-email-ruby/" rel="alternate"></link><updated>2012-06-07T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-07:blog/send-email-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="R"></category><category term="operator"></category><category term="overloading"></category><category term="override"></category><category term="programming"></category></entry><entry><title>Send Email in Ruby</title><link href="http://lisafly.github.io/blog/send-email-ruby/" rel="alternate"></link><updated>2012-06-07T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-07:blog/send-email-ruby/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;A few days ago, I started writing my first Ruby program which read my Verizon
 family plan statements, calculate bills for each member and send emails to
 notify them. The part of reading PDF document and calculating bill is easy. I
@@ -5674,7 +5674,7 @@ family plan.&lt;/p&gt;
         &lt;span class="n"&gt;q&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;*&amp;quot;&lt;/span&gt;
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="n"&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="smtp"></category><category term="programming"></category><category term="Verizon"></category><category term="PDF"></category><category term="Ruby"></category><category term="email"></category></entry><entry><title>Write R Code that Run Faster</title><link href="http://y570.stat.iastate.edu:8000/blog/fast-computing-r/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-05:blog/fast-computing-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/run-fast.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="smtp"></category><category term="programming"></category><category term="Verizon"></category><category term="PDF"></category><category term="Ruby"></category><category term="email"></category></entry><entry><title>Write R Code that Run Faster</title><link href="http://lisafly.github.io/blog/fast-computing-r/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-05:blog/fast-computing-r/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/run-fast.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;R is a popular statistical software which is famous for enormous amout of
 packages. The syntax of R is very flexible with make it convenient at the cost
 of performance. R is indeed slow compared to many other scripting languages, but
@@ -5754,7 +5754,7 @@ cause problem in many cases. Only use data frame when necessary.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;to be continued ...&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="DLL"></category><category term="programming"></category><category term="HPC"></category><category term="parallel"></category><category term="R"></category><category term="memory"></category><category term="GC"></category></entry><entry><title>Online Tools for Popular Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/online-tools-programming-language/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-05:blog/online-tools-programming-language/</id><summary type="html">&lt;h2&gt;Answer Engine&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="DLL"></category><category term="programming"></category><category term="HPC"></category><category term="parallel"></category><category term="R"></category><category term="memory"></category><category term="GC"></category></entry><entry><title>Online Tools for Popular Programming Languages</title><link href="http://lisafly.github.io/blog/online-tools-programming-language/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-05:blog/online-tools-programming-language/</id><summary type="html">&lt;h2&gt;Answer Engine&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.wolframalpha.com/"&gt;Wolfram Alpha&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -5784,7 +5784,7 @@ cause problem in many cases. Only use data frame when necessary.&lt;/p&gt;
 &lt;h2&gt;Tex Tools&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm"&gt;Tex Commands Available in MathJax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="JavaScript"></category><category term="Python"></category><category term="programming"></category><category term="regex"></category><category term="compiler"></category><category term="Ruby"></category></entry><entry><title>Parallel Computing in Different Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/summary-parallel-computing/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-05:blog/summary-parallel-computing/</id><summary type="html">&lt;p&gt;I am not an expert on parallel computing but a statistician who cares 
+&lt;/ul&gt;</summary><category term="JavaScript"></category><category term="Python"></category><category term="programming"></category><category term="regex"></category><category term="compiler"></category><category term="Ruby"></category></entry><entry><title>Parallel Computing in Different Programming Languages</title><link href="http://lisafly.github.io/blog/summary-parallel-computing/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-05:blog/summary-parallel-computing/</id><summary type="html">&lt;p&gt;I am not an expert on parallel computing but a statistician who cares 
 about scientific computing most of the time. 
 There many different types of parallel computing,
 however, the most practical one for average people to do scientific computing is
@@ -5902,7 +5902,7 @@ parallel computing is. In statistical simulations, random numbers are usually
 generated in serial (though there are parallel algorithm for random number
 generating, the popular RNGs are usually serial). If a simulation is mostly
 about generating random numbers, it is probably non-benefitial to do parallel
-computing.&lt;/p&gt;</summary><category term="Mathematica"></category><category term="lock"></category><category term="programming"></category><category term="C/C++"></category><category term="thread"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="R"></category><category term="concurrency"></category><category term="mutex"></category><category term="GPU Computing"></category></entry><entry><title>String in Different Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/summary-string-popular-programming-language/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-05:blog/summary-string-popular-programming-language/</id><summary type="html">&lt;p&gt;A string is essentially a sequence of characters. 
+computing.&lt;/p&gt;</summary><category term="Mathematica"></category><category term="lock"></category><category term="programming"></category><category term="C/C++"></category><category term="thread"></category><category term="Java"></category><category term="HPC"></category><category term="parallel"></category><category term="R"></category><category term="concurrency"></category><category term="mutex"></category><category term="GPU Computing"></category></entry><entry><title>String in Different Programming Languages</title><link href="http://lisafly.github.io/blog/summary-string-popular-programming-language/" rel="alternate"></link><updated>2012-06-05T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-05:blog/summary-string-popular-programming-language/</id><summary type="html">&lt;p&gt;A string is essentially a sequence of characters. 
 This is how string is implemented in different programming languages.
 For this reason, you can operate string like an array in some programming languages.
 This post is a shallow summary on strings in different programming languages.
@@ -5941,7 +5941,7 @@ For a deep discussion, please check other posts. &lt;/p&gt;
 &lt;li&gt;Bash: &lt;code&gt;${#str_var}&lt;/code&gt; where &lt;code&gt;str_var&lt;/code&gt; is a string variable&lt;/li&gt;
 &lt;li&gt;Python: len() as a function&lt;/li&gt;
 &lt;li&gt;Ruby: length() as a method&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Python"></category><category term="programming"></category><category term="Java"></category><category term="string"></category><category term="bash"></category><category term="Ruby"></category><category term="R"></category></entry><entry><title>Automated Phone Bill Using Ruby Program</title><link href="http://y570.stat.iastate.edu:8000/blog/automated-verizon-bill-using-ruby/" rel="alternate"></link><updated>2012-06-04T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-04:blog/automated-verizon-bill-using-ruby/</id><summary type="html">&lt;p&gt;I have decided to try different programming languages. 
+&lt;/ul&gt;</summary><category term="Python"></category><category term="programming"></category><category term="Java"></category><category term="string"></category><category term="bash"></category><category term="Ruby"></category><category term="R"></category></entry><entry><title>Automated Phone Bill Using Ruby Program</title><link href="http://lisafly.github.io/blog/automated-verizon-bill-using-ruby/" rel="alternate"></link><updated>2012-06-04T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-04:blog/automated-verizon-bill-using-ruby/</id><summary type="html">&lt;p&gt;I have decided to try different programming languages. 
 I learn Python a month ago. 
 I would like to say that Python is great scripting language. 
 The only thing I do not like so far is inconsistent about methods and functions.
@@ -5970,7 +5970,7 @@ you have to install a few ruby packages in order to use it. &lt;/p&gt;
 &lt;p&gt;The code only works for current Verizon family plan statement. 
 I wish Verizon not to change the format of the family plan statement so that
 this program can be used by people like me for a long time, otherwise I have to
-make this program more robust to support statement in other format as well.&lt;/p&gt;</summary><category term="Python"></category><category term="programming"></category><category term="Verizon"></category><category term="Ruby"></category><category term="email"></category><category term="phone"></category></entry><entry><title>Read PDF in Ruby</title><link href="http://y570.stat.iastate.edu:8000/blog/ruby-read-pdf/" rel="alternate"></link><updated>2012-06-03T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-06-03:blog/ruby-read-pdf/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+make this program more robust to support statement in other format as well.&lt;/p&gt;</summary><category term="Python"></category><category term="programming"></category><category term="Verizon"></category><category term="Ruby"></category><category term="email"></category><category term="phone"></category></entry><entry><title>Read PDF in Ruby</title><link href="http://lisafly.github.io/blog/ruby-read-pdf/" rel="alternate"></link><updated>2012-06-03T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-06-03:blog/ruby-read-pdf/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;"pdf-reader" is a good Ruby libary for reading pdf document. 
 You can install it via RubyGems using the following command.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;gem&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pdf&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;reader&lt;/span&gt;
@@ -5983,7 +5983,7 @@ To load it, use the command below. &lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;For more information, see the &lt;a href="https://github.com/yob/pdf-reader"&gt;project on GitHub&lt;/a&gt;.&lt;/p&gt;</summary><category term="require"></category><category term="library"></category><category term="programming"></category><category term="package"></category><category term="PDF"></category><category term="Ruby"></category></entry><entry><title>Check Whether an Email Address is Valid in Java</title><link href="http://y570.stat.iastate.edu:8000/blog/valid-email-address-java/" rel="alternate"></link><updated>2012-05-27T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-27:blog/valid-email-address-java/</id><summary type="html">&lt;p&gt;See the following code.&lt;/p&gt;
+&lt;p&gt;For more information, see the &lt;a href="https://github.com/yob/pdf-reader"&gt;project on GitHub&lt;/a&gt;.&lt;/p&gt;</summary><category term="require"></category><category term="library"></category><category term="programming"></category><category term="package"></category><category term="PDF"></category><category term="Ruby"></category></entry><entry><title>Check Whether an Email Address is Valid in Java</title><link href="http://lisafly.github.io/blog/valid-email-address-java/" rel="alternate"></link><updated>2012-05-27T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-27:blog/valid-email-address-java/</id><summary type="html">&lt;p&gt;See the following code.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="n"&gt;email&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;test@test.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="n"&gt;Pattern&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Pattern&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;.+@.+&lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;&lt;span class="s"&gt;.[a-z]+&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="n"&gt;Matcher&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;matcher&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;email&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -5993,7 +5993,7 @@ To load it, use the command below. &lt;/p&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;EMAIL ERROR&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="pattern"></category><category term="match"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Containers in Popular Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/containers-summary-in-popular-languages/" rel="alternate"></link><updated>2012-05-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-22:blog/containers-summary-in-popular-languages/</id><summary type="html">&lt;p&gt;Here is a brief summary about containers in programming languages such as 
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="pattern"></category><category term="match"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Containers in Popular Programming Languages</title><link href="http://lisafly.github.io/blog/containers-summary-in-popular-languages/" rel="alternate"></link><updated>2012-05-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-22:blog/containers-summary-in-popular-languages/</id><summary type="html">&lt;p&gt;Here is a brief summary about containers in programming languages such as 
 C/C++, D, Java, VB/VB.net, Matlab, Mathmatica, R, Julia, Python and Ruby. 
 All of these programming languages defined support containers. 
 Some of the languages distinguish different types of containers 
@@ -6048,7 +6048,7 @@ table, you have to use a differnt data structure (e.g., the sort method of a
 hash table in Ruby changes the data structure to a 2-d array). &lt;/p&gt;
 &lt;p&gt;The following is a brief summary about codes on containers in these languages. &lt;/p&gt;
 &lt;h2&gt;C/C++&lt;/h2&gt;
-&lt;p&gt;//create array &lt;/p&gt;</summary><category term="Mathematica"></category><category term="generic"></category><category term="C++"></category><category term="list"></category><category term="programming"></category><category term="Julia"></category><category term="Python"></category><category term="hash"></category><category term="D"></category><category term="array"></category><category term="Java"></category><category term="Ruby"></category><category term="R"></category><category term="vector"></category><category term="VB/VB.net"></category><category term="MATLAB"></category></entry><entry><title>Differences betwwen Vector and ArrayList in Java</title><link href="http://y570.stat.iastate.edu:8000/blog/vector-arraylist-difference-java/" rel="alternate"></link><updated>2012-05-18T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-18:blog/vector-arraylist-difference-java/</id><summary type="html">&lt;p&gt;A good summay is &lt;a href="http://javarevisited.blogspot.com/2011/09/difference-vector-vs-arraylist-in-java.html"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><category term="synchronization"></category><category term="thread"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Abuse of Vector in R</title><link href="http://y570.stat.iastate.edu:8000/blog/abuse-vector-r/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-16:blog/abuse-vector-r/</id><summary type="html">&lt;p&gt;R is a language that is friendly to vector operation, 
+&lt;p&gt;//create array &lt;/p&gt;</summary><category term="Mathematica"></category><category term="generic"></category><category term="C++"></category><category term="list"></category><category term="programming"></category><category term="Julia"></category><category term="Python"></category><category term="hash"></category><category term="D"></category><category term="array"></category><category term="Java"></category><category term="Ruby"></category><category term="R"></category><category term="vector"></category><category term="VB/VB.net"></category><category term="MATLAB"></category></entry><entry><title>Differences betwwen Vector and ArrayList in Java</title><link href="http://lisafly.github.io/blog/vector-arraylist-difference-java/" rel="alternate"></link><updated>2012-05-18T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-18:blog/vector-arraylist-difference-java/</id><summary type="html">&lt;p&gt;A good summay is &lt;a href="http://javarevisited.blogspot.com/2011/09/difference-vector-vs-arraylist-in-java.html"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><category term="synchronization"></category><category term="thread"></category><category term="Java"></category><category term="programming"></category></entry><entry><title>Abuse of Vector in R</title><link href="http://lisafly.github.io/blog/abuse-vector-r/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-16:blog/abuse-vector-r/</id><summary type="html">&lt;p&gt;R is a language that is friendly to vector operation, 
 so vector is an important data structure in R. 
 A single data (of basic types, e.g., numeric or character) is essentially a
 vector of length 1. A matrix or an array in R is essentially a vector. 
@@ -6065,7 +6065,7 @@ extreem on vectors. There is no separate data structre for vector in Matlab.
 A vector in Matlab is either a matrix with 1 row or a matrix with 1 column. &lt;/p&gt;
 &lt;p&gt;R is famous for its simple and flexible syntax, however, it's too
 flexible and as coinsequence that it's slow compared to many other programming 
-languages, and it's easy to make tricky mistakes in R. &lt;/p&gt;</summary><category term="programming"></category><category term="matrix"></category><category term="data sturcture"></category><category term="data"></category><category term="vector"></category><category term="R"></category></entry><entry><title>Compare R with Other Languages on Data Manipulation</title><link href="http://y570.stat.iastate.edu:8000/blog/pass-array-r-other-language/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-16:blog/pass-array-r-other-language/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
+languages, and it's easy to make tricky mistakes in R. &lt;/p&gt;</summary><category term="programming"></category><category term="matrix"></category><category term="data sturcture"></category><category term="data"></category><category term="vector"></category><category term="R"></category></entry><entry><title>Compare R with Other Languages on Data Manipulation</title><link href="http://lisafly.github.io/blog/pass-array-r-other-language/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-16:blog/pass-array-r-other-language/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
 Here I compare R with other languages such as C/C++, Java, Matlab, Python and so
 on data manipulation. I list a few advantages and disadvantages of R on data
 manipulation compared with other programming languages. &lt;/p&gt;
@@ -6103,7 +6103,7 @@ don't know whether there are libraries offering convenient ways to read and writ
 &lt;code&gt;read.table&lt;/code&gt; and &lt;code&gt;write.table&lt;/code&gt; in R. Honestly speaking, I doubt. What's more,
 compiled langugaes are not as convenient as script languages to explore data.&lt;/p&gt;
 &lt;p&gt;Given these things discussed above, Python and R
-are good choices if you have to deal with both numerical and character data at the same time.&lt;/p&gt;</summary><category term="Python"></category><category term="C++"></category><category term="programming"></category><category term="statistics"></category><category term="Java"></category><category term="string"></category><category term="data frame"></category><category term="R"></category><category term="OOP"></category><category term="MATLAB"></category></entry><entry><title>Passing Arrays between R and Other Programming Languages</title><link href="http://y570.stat.iastate.edu:8000/blog/r-interface-other-languages/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-05-16:blog/r-interface-other-languages/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
+are good choices if you have to deal with both numerical and character data at the same time.&lt;/p&gt;</summary><category term="Python"></category><category term="C++"></category><category term="programming"></category><category term="statistics"></category><category term="Java"></category><category term="string"></category><category term="data frame"></category><category term="R"></category><category term="OOP"></category><category term="MATLAB"></category></entry><entry><title>Passing Arrays between R and Other Programming Languages</title><link href="http://lisafly.github.io/blog/r-interface-other-languages/" rel="alternate"></link><updated>2012-05-16T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-05-16:blog/r-interface-other-languages/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/&gt;
 A matrix or an array in R is essentially a vector with dimension attribute. 
 For this reason, no matter you pass a vector, matrix or an array
 to an external call, you essentially pass a 1 dimensional array to the call. 
@@ -6145,7 +6145,7 @@ you call them in R. For C, you have to unload and reload dynamic libraries; for
 Java, you have to restart the JVM. For some reason I'm not sure about (probably
 because of other loaded libraries requiring rJava package), restarting the JVM
 may not work. These are advantages and disadvantages of interfacing with C and
-Java in R. You can choose the most convenient one for you work. &lt;/p&gt;</summary><category term="array"></category><category term="R"></category><category term="C/C++"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Install R package "arrayQualityMetrics"</title><link href="http://y570.stat.iastate.edu:8000/blog/arrayQualityMetrics/" rel="alternate"></link><updated>2012-04-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-04-22:blog/arrayQualityMetrics/</id><summary type="html">&lt;p&gt;I had to use the R package "arrayQualityMetrics" to check the quality of some gene chips. 
+Java in R. You can choose the most convenient one for you work. &lt;/p&gt;</summary><category term="array"></category><category term="R"></category><category term="C/C++"></category><category term="programming"></category><category term="Java"></category></entry><entry><title>Install R package "arrayQualityMetrics"</title><link href="http://lisafly.github.io/blog/arrayQualityMetrics/" rel="alternate"></link><updated>2012-04-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-04-22:blog/arrayQualityMetrics/</id><summary type="html">&lt;p&gt;I had to use the R package "arrayQualityMetrics" to check the quality of some gene chips. 
 Installing this package in Linux takes a few steps. 
 The following is the brief instruction on how to install R package "arayQualityMetrics" in Debian.    &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# install the graphics library cairo&lt;/span&gt;
@@ -6163,7 +6163,7 @@ The following is the brief instruction on how to install R package "arayQualityM
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Installing R package "arrayQualityMetrics" takes a while, so be patient. &lt;/p&gt;</summary><category term="research"></category><category term="programming"></category><category term="biostatistics"></category><category term="package"></category><category term="array"></category><category term="quality"></category><category term="R"></category></entry><entry><title>Easier Blogging Using Python Program</title><link href="http://y570.stat.iastate.edu:8000/blog/first-python/" rel="alternate"></link><updated>2012-04-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2012-04-22:blog/first-python/</id><summary type="html">&lt;p&gt;I switched my blog from Wordpress to Github a few months ago. 
+&lt;p&gt;Installing R package "arrayQualityMetrics" takes a while, so be patient. &lt;/p&gt;</summary><category term="research"></category><category term="programming"></category><category term="biostatistics"></category><category term="package"></category><category term="array"></category><category term="quality"></category><category term="R"></category></entry><entry><title>Easier Blogging Using Python Program</title><link href="http://lisafly.github.io/blog/first-python/" rel="alternate"></link><updated>2012-04-22T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2012-04-22:blog/first-python/</id><summary type="html">&lt;p&gt;I switched my blog from Wordpress to Github a few months ago. 
 Github is a general purpose repository. 
 The biggest advantage to reposit your blog on Github is that 
 it allows you to work offline without the hassle to login to your online account. &lt;/p&gt;
@@ -6323,7 +6323,7 @@ The program takes care of the file extension, so you need not to worry about whe
 &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;__name__&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;__main__&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
     &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;sys&lt;/span&gt;
     &lt;span class="n"&gt;edit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="programming"></category><category term="blog"></category><category term="Jekyll"></category><category term="Python"></category><category term="Ruby"></category></entry><entry><title>A Bug in Mathematica</title><link href="http://y570.stat.iastate.edu:8000/blog/bug-in-mathematica/" rel="alternate"></link><updated>2011-12-08T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2011-12-08:blog/bug-in-mathematica/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="programming"></category><category term="blog"></category><category term="Jekyll"></category><category term="Python"></category><category term="Ruby"></category></entry><entry><title>A Bug in Mathematica</title><link href="http://lisafly.github.io/blog/bug-in-mathematica/" rel="alternate"></link><updated>2011-12-08T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2011-12-08:blog/bug-in-mathematica/</id><summary type="html">&lt;p&gt;&lt;img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/&gt;&lt;/p&gt;
 &lt;p&gt;Mathematica is a very intelligent and powerful math software. 
 I use it in my study and research a lot. 
 Mathematica's ability to take derivative and to calculate 
@@ -6345,7 +6345,7 @@ Never fully trust a software. You should always judge the result based on your o
 &lt;span class="mf"&gt;0.635862&lt;/span&gt;
 &lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Integrate&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Cos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;theta&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="n"&gt;Exp&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Cos&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;theta&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Sin&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;theta&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="n"&gt;Pi&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;theta&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="n"&gt;Pi&lt;/span&gt;&lt;span class="p"&gt;}]]&lt;/span&gt;
 &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="Mathematica"></category><category term="programming"></category><category term="bug"></category></entry><entry><title>Tips for VB/VB.net</title><link href="http://y570.stat.iastate.edu:8000/blog/tips-vb.net/" rel="alternate"></link><updated>2011-08-31T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2011-08-31:blog/tips-vb.net/</id><summary type="html">&lt;h2&gt;About String Functions&lt;/h2&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Mathematica"></category><category term="programming"></category><category term="bug"></category></entry><entry><title>Tips for VB/VB.net</title><link href="http://lisafly.github.io/blog/tips-vb.net/" rel="alternate"></link><updated>2011-08-31T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2011-08-31:blog/tips-vb.net/</id><summary type="html">&lt;h2&gt;About String Functions&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;String functions that return a string can be used with a dollar sign at the end, 
@@ -6360,7 +6360,7 @@ which is a faster version of the corresponding function.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;The function &lt;code&gt;split&lt;/code&gt; can split a string into a string array.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="VB/VB.net"></category><category term="programming"></category><category term="string"></category></entry><entry><title>Combination and Permutation Related Functions in R</title><link href="http://y570.stat.iastate.edu:8000/blog/combination-and-permutation-in-r/" rel="alternate"></link><updated>2010-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2010-11-20:blog/combination-and-permutation-in-r/</id><summary type="html">&lt;ol&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="VB/VB.net"></category><category term="programming"></category><category term="string"></category></entry><entry><title>Combination and Permutation Related Functions in R</title><link href="http://lisafly.github.io/blog/combination-and-permutation-in-r/" rel="alternate"></link><updated>2010-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2010-11-20:blog/combination-and-permutation-in-r/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;expand.grid&lt;/code&gt; creates a data frame from all possible combinations of supplied vectors or factors. 
 For example,&lt;/p&gt;
@@ -6385,7 +6385,7 @@ For example,&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;combn&lt;/code&gt; generates all combinations of $n$ elements taking $m$ at a time.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="R"></category><category term="statisitcs"></category><category term="combination"></category><category term="permutation"></category><category term="programming"></category></entry><entry><title>General Tips for Latex</title><link href="http://y570.stat.iastate.edu:8000/blog/general-tips-for-latex/" rel="alternate"></link><updated>2010-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2010-11-20:blog/general-tips-for-latex/</id><summary type="html">&lt;p&gt;&lt;a href="http://en.wikibooks.org/wiki/Latex"&gt;wikibooks&lt;/a&gt; has a comprehensive tutorial about latex. &lt;/p&gt;
+&lt;/ol&gt;</summary><category term="R"></category><category term="statisitcs"></category><category term="combination"></category><category term="permutation"></category><category term="programming"></category></entry><entry><title>General Tips for Latex</title><link href="http://lisafly.github.io/blog/general-tips-for-latex/" rel="alternate"></link><updated>2010-11-20T00:00:00-08:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2010-11-20:blog/general-tips-for-latex/</id><summary type="html">&lt;p&gt;&lt;a href="http://en.wikibooks.org/wiki/Latex"&gt;wikibooks&lt;/a&gt; has a comprehensive tutorial about latex. &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.texample.net/"&gt;TeXample.net&lt;/a&gt; has lots of useful example resources for TeX users.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -6456,7 +6456,7 @@ to extract the picture directly. &lt;/p&gt;
 equations manually though can do that. If you don't align equations
 manually, they will be aligned automatically.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="tips"></category><category term="Latex"></category><category term="programming"></category></entry><entry><title>Format Data In SAS</title><link href="http://y570.stat.iastate.edu:8000/blog/format-data-in-sas/" rel="alternate"></link><updated>2009-11-01T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:y570.stat.iastate.edu:8000,2009-11-01:blog/format-data-in-sas/</id><summary type="html">&lt;h2&gt;Data Formatting&lt;/h2&gt;
+&lt;/ol&gt;</summary><category term="tips"></category><category term="Latex"></category><category term="programming"></category></entry><entry><title>Format Data In SAS</title><link href="http://lisafly.github.io/blog/format-data-in-sas/" rel="alternate"></link><updated>2009-11-01T00:00:00-07:00</updated><author><name>Chuanlong (Ben) Du</name></author><id>tag:lisafly.github.io,2009-11-01:blog/format-data-in-sas/</id><summary type="html">&lt;h2&gt;Data Formatting&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;To add labels to a variable, 
